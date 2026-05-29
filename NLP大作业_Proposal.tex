@@ -1,0 +1,212 @@
+\documentclass[11pt]{article}
+\usepackage{ctex}
+\usepackage{geometry}
+\usepackage{indentfirst}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% 设置页面边距
+\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+% 设置页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{南京大学}
+\fancyhead[C]{自然语言处理大作业}
+\fancyhead[R]{\today}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% 设置标题格式
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+% 设置段落间距
+\setlength{\parindent}{2em} % 首行缩进
+\setlength{\parskip}{0.5em}  % 段落间距
+
+\title{\textbf{NLP大作业Proposal：长期记忆对话Agent}}
+\author{（学生姓名：待填写）}
+\date{2026年5月17日}
+
+\begin{document}
+
+\maketitle
+
+\section{选题}
+
+本项目旨在实现一个支持长期记忆的对话Agent，该Agent能够从历史多轮对话中自动提取并管理记忆，在回答新问题时检索并利用相关记忆，并在长期对话评测集上测量效果。
+
+具体来说，我们将构建一个系统，该系统包含以下核心模块：
+
+\begin{enumerate}
+\item Memory Store：记忆存储与索引（使用FAISS或Chroma）
+\item Memory Writer：从对话中提取记忆（基于LLM的prompt）
+\item Memory Retriever：给定query检索相关记忆
+\item Memory Updater：冲突/遗忘/去重（实现其中一种）
+\item Agent Controller：主流程编排：写入 → 检索 → 生成
+\end{enumerate}
+
+我们的方案将参考以下四篇核心文献的思路：
+
+\begin{enumerate}
+\item Generative Agents: Interactive Simulacra of Human Behavior (Park et al., UIST 2023) - Recency × Importance × Relevance 三因子检索、Reflection
+\item MemoryBank: Enhancing Large Language Models with Long-Term Memory (Zhong et al., AAAI 2024) - 基于 Ebbinghaus 遗忘曲线的记忆动力学
+\item Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory (Chhikara et al., ECAI 2025) - 记忆提取 → 冲突检测 → 更新的工程化流程
+\item Evaluating Very Long-Term Conversational Memory of LLM Agents (Maharana et al., ACL 2024) - 长期对话记忆评测基准
+\end{enumerate}
+
+\section{组队情况}
+
+\begin{itemize}
+\item 队长：（待填写）
+\item 队员：（待填写）
+\end{itemize}
+
+\section{研究计划}
+
+\subsection{项目总体目标}
+
+实现一个支持长期记忆的对话Agent，具备以下能力：
+
+\begin{enumerate}
+\item 从多会话对话中提取并结构化存储记忆
+\item 回答新问题时检索相关记忆辅助生成
+\item 实现基本的记忆管理机制（更新/冲突/遗忘，三选一）
+\item 在评测集上跑通并得到可量化的结果
+\end{enumerate}
+
+\subsection{技术路线}
+
+我们将采用以下技术栈：
+
+\begin{enumerate}
+\item 主LLM：Qwen2.5-3B-Instruct-AWQ（推荐模型，8G显存可流畅运行）
+\item Embedding：BAAI/bge-small-zh-v1.5（本任务足够）
+\item 部署方式：使用vLLM起OpenAI兼容服务
+\item 评测：使用云端API（如阿里云DashScope的qwen3-32b或qwen-plus）进行LLM-as-Judge评测
+\end{enumerate}
+
+\subsection{探索方向}
+
+根据课程要求，我们选择探索方向A（检索策略）和E（反思机制），其中以E（反思机制）为主要探索方向，如有时间再探索A（检索策略）。
+
+\begin{enumerate}
+\item \textbf{主要探索方向E：反思机制（Reflection）}
+\begin{itemize}
+\item 借鉴Generative Agents中的Reflection机制
+\item 实现周期性reflection生成高阶记忆
+\item 通过反思机制整合低层次观察形成高层次洞察
+\end{itemize}
+
+\item \textbf{次要探索方向A：检索策略（如有时间）}
+\begin{itemize}
+\item 对比稠密检索vs.三因子打分(Recency × Importance × Relevance)
+\item 基于Generative Agents的检索策略实现
+\end{itemize}
+\end{enumerate}
+
+\subsection{重要时间节点}
+
+\begin{itemize}
+\item \textbf{2026年5月17日：}Proposal提交截止日期
+\item \textbf{2026年6月3日前：}提交进展报告（进度、初步成果、下一步计划）
+\item \textbf{2026年6月17日：}Final答辩日期，提交内容包括答辩PPT、代码、论文
+\end{itemize}
+
+\subsection{详细实施计划（按时间节点安排）}
+
+\subsubsection{第1周（5月17日前）：Proposal完成与系统架构搭建}
+
+\begin{enumerate}
+\item 完成Proposal文档（截至5月17日）
+\item 搭建可端到端运行的基线Agent框架
+\item 实现Memory Store模块（使用FAISS或Chroma）
+\item 实现Memory Writer模块（从对话中提取记忆）
+\end{enumerate}
+
+\subsubsection{第2周（5月18日-5月24日）：核心功能继续完善}
+
+\begin{enumerate}
+\item 实现Memory Retriever模块（检索相关记忆）
+\item 实现Memory Updater模块（选择更新/冲突/遗忘中的一种）
+\item 实现Agent Controller主流程编排
+\end{enumerate}
+
+\subsubsection{第3-4周（5月25日-6月1日）：进展报告准备与初步成果实现}
+
+\begin{enumerate}
+\item 确保所有记忆操作可追踪（记录检索到的记忆内容、完整prompt和模型输出）
+\item 开始实现主要探索方向E：反思机制（Reflection）
+\item 准备进展报告（截至6月3日前提交）
+\begin{itemize}
+\item 项目进度总结
+\item 初步成果展示
+\item 下一步详细计划
+\end{itemize}
+\end{enumerate}
+
+\subsubsection{第5-6周（6月2日-6月15日）：主要探索方向深入实现}
+
+\begin{enumerate}
+\item 完善Reflection机制设计与实现
+\item 实现周期性高阶记忆生成
+\item 开发记忆整合算法，将低层次观察转化为高层次洞察
+\item 进行初步的消融实验，验证Reflection机制的有效性
+\item 如有时间，开始次要探索方向A：检索策略实现
+\begin{itemize}
+\item 实现多种检索策略（稠密检索vs.三因子打分）
+\item 对比不同检索策略的效果
+\end{itemize}
+\end{enumerate}
+
+\subsubsection{第7周（6月16日）：答辩准备}
+
+\begin{enumerate}
+\item 完成所有功能开发
+\item 进行全面测试和性能评估
+\item 准备Final答辩PPT
+\item 整理项目代码和论文
+\end{enumerate}
+
+\subsubsection{2026年6月17日：Final答辩}
+
+\begin{enumerate}
+\item 提交答辩PPT
+\item 提交完整项目代码
+\item 提交项目论文
+\item 进行项目答辩展示
+\end{enumerate}
+
+\subsection{预期成果}
+
+\begin{enumerate}
+\item 一个可运行的长期记忆对话Agent系统，具备反思机制
+\item 完整的实验评估结果，包括QA准确率、LLM调用次数、响应时间等指标
+\item 消融实验结果，证明反思机制的有效性
+\item 详细的项目报告，包含系统架构图、实验设置、结果分析和反思
+\item 6月3日前的进展报告
+\item 6月17日的答辩PPT
+\end{enumerate}
+
+\subsection{风险评估与应对措施}
+
+\begin{enumerate}
+\item \textbf{风险1：}时间紧迫，难以在截止日期前完成所有功能 \\
+      \textbf{应对：}严格按照时间节点推进，优先完成核心功能，确保在各截止日期前交付相应成果
+
+\item \textbf{风险2：}反思机制实现复杂度高 \\
+      \textbf{应对：}先实现基础版本，逐步迭代优化，确保在6月3日前有初步成果展示
+
+\item \textbf{风险3：}评测数据集处理复杂 \\
+      \textbf{应对：}先用小样本（5-10条）调通整条流水线，再扩展到全集评测
+
+\item \textbf{风险4：}次要探索方向（检索策略）时间不足 \\
+      \textbf{应对：}优先保证主要探索方向（反思机制）的完成质量，次要方向根据时间灵活调整
+\end{enumerate}
+
+\end{document}

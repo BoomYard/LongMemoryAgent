@@ -1,0 +1,52 @@
+[
+  {
+    "qa_id": "conv-26_q11",
+    "question": "Where did Caroline move from 4 years ago?",
+    "reference": "Sweden",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "",
+    "error": "answer_failed: LLM 调用重试 3 次后仍然失败：Error code: 502",
+    "latency_sec": 25.96
+  },
+  {
+    "qa_id": "conv-26_q25",
+    "question": "When did Caroline go to the LGBTQ conference?",
+    "reference": "10 July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "",
+    "error": "answer_failed: LLM 调用重试 3 次后仍然失败：Error code: 502",
+    "latency_sec": 25.129
+  },
+  {
+    "qa_id": "conv-26_q27",
+    "question": "Would Caroline pursue writing as a career option?",
+    "reference": "LIkely no; though she likes reading, she wants to be a counselor",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "",
+    "error": "answer_failed: LLM 调用重试 3 次后仍然失败：Error code: 502",
+    "latency_sec": 24.978
+  },
+  {
+    "qa_id": "conv-26_q30",
+    "question": "Would Melanie be considered a member of the LGBTQ community?",
+    "reference": "Likely no, she does not refer to herself as part of it",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "",
+    "error": "answer_failed: LLM 调用重试 3 次后仍然失败：Error code: 502",
+    "latency_sec": 25.016
+  },
+  {
+    "qa_id": "conv-26_q77",
+    "question": "Would Melanie go on another roadtrip soon?",
+    "reference": "Likely no; since this one went badly",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "",
+    "error": "answer_failed: LLM 调用重试 3 次后仍然失败：Error code: 502",
+    "latency_sec": 25.086
+  }
+]
