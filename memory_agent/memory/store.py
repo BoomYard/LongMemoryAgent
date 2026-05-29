@@ -1,11 +1,7 @@
 """
-[规划对应] 本地 DB 数据库 + 记忆数据结构
-
-本文件实现了记忆的底层存储，对应 develop.md 中的：
-- 记忆数据结构：{id, text_description, type, creation_timestamp, last_access_timestamp, importance_score, embedding}
-- 本地 DB 数据库的增删改查操作
-
-底层使用 ChromaDB PersistentClient，数据持久化到磁盘。
+本文件实现了本地 DB 数据库的增删改查操作
+记忆数据结构：{id, text_description, type, creation_timestamp, last_access_timestamp, importance_score, embedding}
+底层使用 ChromaDB PersistentClient
 每次创建 MemoryStore 实例时自动清空旧数据，保证每个 Agent 实例状态独立。
 """
 
@@ -40,8 +36,7 @@ class MemoryUnit:
     embedding: Optional[np.ndarray] = field(default=None, repr=False)
 
 
-# ── 本地 DB 数据库（ChromaDB）───────────────────────────────────
-# [规划对应] add_memory 方法会将记忆存在本地的 DB 数据库中
+# add方法会将记忆存在本地的 DB 数据库中
 # 使用 ChromaDB PersistentClient，数据落盘到 chroma_db/ 目录
 # HNSW 空间设为 cosine，与 SentenceTransformer normalize 后的 dot product 一致
 class MemoryStore:
@@ -56,16 +51,19 @@ class MemoryStore:
             self.client.delete_collection(COLLECTION_NAME)
         except Exception:
             pass
-
+        # 创建记忆集合
         self.collection = self.client.create_collection(
             name=COLLECTION_NAME,
             metadata={"hnsw:space": "cosine"},
         )
+        # 记忆 ID 从 0 开始递增
         self._next_id: int = 0
 
+    # 内部方法：将整数 ID 转换为字符串
     def _id_str(self, memory_id: int) -> str:
         return str(memory_id)
 
+    # 内部方法：将 ChromaDB 中的行数据转换为 MemoryUnit
     def _row_to_memory(self, metadatas, embeddings, ids, idx: int) -> MemoryUnit:
         meta = metadatas[idx]
         mem_id = int(ids[idx])
@@ -88,11 +86,11 @@ class MemoryStore:
             embedding=embedding,
         )
 
-    # [规划对应] add_memory 写入：将格式化后的记忆存入 ChromaDB
+    # 写入：将格式化后的记忆存入 ChromaDB
     # embedding 以 list 形式存储，读取时还原为 np.ndarray
     def add(self, text: str, memory_type: str, importance_score: float,
             embedding: np.ndarray, timestamp: Optional[float] = None) -> int:
-        ts = timestamp or time.time()
+        ts = timestamp
         mem_id = self._id_str(self._next_id)
         self.collection.add(
             ids=[mem_id],
@@ -118,24 +116,19 @@ class MemoryStore:
             return None
         return self._row_to_memory(results["metadatas"], results["embeddings"], results["ids"], 0)
 
-    # [规划对应] 检索命中后将 last_access_timestamp 更新为当前时间
+    # 检索命中后将 last_access_timestamp 更新为当前时间
     # ChromaDB update 为部分更新，只覆盖指定字段，其余保留
     def update_access_time(self, memory_id: int, timestamp: Optional[float] = None):
-        ts = timestamp or time.time()
+        ts = timestamp
         self.collection.update(
             ids=[self._id_str(memory_id)],
             metadatas=[{"last_access_timestamp": ts}],
         )
 
-    def update_text(self, memory_id: int, new_text: str, new_embedding: Optional[np.ndarray] = None):
-        kwargs = {"ids": [self._id_str(memory_id)], "documents": [new_text]}
-        if new_embedding is not None:
-            kwargs["embeddings"] = [new_embedding.tolist()]
-        self.collection.update(**kwargs)
-
     def remove(self, memory_id: int):
         self.collection.delete(ids=[self._id_str(memory_id)])
 
+    #获取并返回所有记忆，用于三因子检索
     def get_all(self) -> list[MemoryUnit]:
         results = self.collection.get(include=["embeddings", "metadatas"])
         if not results["ids"]:
@@ -144,18 +137,6 @@ class MemoryStore:
             self._row_to_memory(results["metadatas"], results["embeddings"], results["ids"], i)
             for i in range(len(results["ids"]))
         ]
-
-    def get_id_list(self) -> list[int]:
-        results = self.collection.get(include=[])
-        return [int(id_) for id_ in results["ids"]]
-
-    # [规划对应] sum_score 辅助：累加所有记忆的 importance_score
-    # 当累计新增重要性超过 150 时触发 reflect 反思
-    def total_importance(self) -> float:
-        results = self.collection.get(include=["metadatas"])
-        if not results["metadatas"]:
-            return 0.0
-        return sum(float(m.get("importance_score", 5)) for m in results["metadatas"])
 
     def __len__(self):
         return self.collection.count()

@@ -28,7 +28,7 @@ If the memories do not contain the answer, reply 'unknown'.
 {context}
 === Question ===
 {question}
-=== Answer ==="""
+"""
 
 
 class MemoryAgent:
@@ -46,11 +46,10 @@ class MemoryAgent:
         raw_memories = self.writer.extract_memories(conversation)
         if not raw_memories:
             return
-
         # 向量化工具
         texts = [m["text"] for m in raw_memories]
         embeddings = self.writer.embed_batch(texts)
-
+        retriever.latest_time = self.writer.latest_time
         # 逐条评分 → 存库 → 累加 sum_score
         for i, mem in enumerate(raw_memories):
             importance = self.writer.score_importance(mem["text"])
@@ -59,25 +58,21 @@ class MemoryAgent:
                 memory_type=mem["type"],
                 importance_score=importance,
                 embedding=embeddings[i],
-                timestamp=mem["timestamp"],
+                timestamp=mem["last_access_timestamp"],
             )
             # 维护 sum_score，超过 150 会自动触发 reflect
             self.updater.add_importance(importance)
 
-    # ── answer 方法 ──────────────────────────────────────────────
-    # [规划对应] answer = 检索 + 生成
-    # 流程：
-    #   1. 对 question 做向量化
-    #   2. 调用 retrieval 进行三因子检索
-    #   3. 将检索到的记忆拼接为上下文
-    #   4. 喂给 LLM 生成答案
+ 
     def answer(self, question: str) -> str:
+        # 对 question 做向量化
         query_embedding = self.writer.embed_text(question)
+        # 调用 retrieval 进行三因子检索
         results = self.retriever.retrieve(question, query_embedding, top_k=self.top_k)
 
         if not results:
             return "unknown"
-
         context = "\n".join(f"- {mem.text_description}" for mem, _ in results)
         prompt = ANSWER_PROMPT.format(context=context, question=question)
+        # 喂给 LLM 生成答案
         return self.llm.generate(prompt, max_tokens=64).strip()

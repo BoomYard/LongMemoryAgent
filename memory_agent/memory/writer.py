@@ -1,10 +1,5 @@
 """
-[规划对应] formatting 工具 + mark_agent 评分 + 向量化工具
-
-本文件实现了记忆的提取、评分和向量化，对应 develop.md 中的三个子工具：
-- formatting 工具：从原始对话中提取记忆，格式化为结构化字段
-- mark_agent：调用 LLM 对记忆进行重要性评分（1-10分）
-- 向量化工具：将文本转为 embedding 向量，供检索使用
+本文件提供三个子工具，用于记忆的提取、评分和向量化，并记录最新记忆的时间戳用于三因子检索
 """
 
 import sys
@@ -30,7 +25,7 @@ class MemoryWriter:
         # 使用 sentence-transformers 加载 embedding 模型
         self.embed_model = SentenceTransformer(embed_model_name)
         self.mark_agent = LLMClient()
-        
+        self.latest_time = None
 
     # 输入：完整的多会话对话 conversation dict
     # 输出：list[dict]，每个 dict 包含 {text, timestamp, type}
@@ -40,6 +35,8 @@ class MemoryWriter:
             date_time_str = sess["date_time"]
             # 将字符串时间解析为 Unix 时间戳
             date_ts = _parse_date_time(date_time_str)
+            # 更新最新时间戳
+            self.latest_time = date_ts if self.latest_time is None or date_ts > self.latest_time else self.latest_time
             # 合并一个session的文本为一个字符串
             line = ""
             for turn in sess["turns"]:
@@ -48,8 +45,9 @@ class MemoryWriter:
             if line:
                 all_memories.append({
                     "text": line,
-                    "timestamp": date_ts,
-                    "type": "observation",
+                    "last_access_timestamp": date_ts,
+                    "creation_timestamp": date_ts,
+                    "type": "observation"
                 })
         return all_memories
 
