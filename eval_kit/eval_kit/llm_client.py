@@ -17,6 +17,12 @@ import time
 from typing import Optional
 
 try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+try:
     from openai import OpenAI
 except ImportError:
     raise ImportError("请先执行 pip install openai>=1.0")

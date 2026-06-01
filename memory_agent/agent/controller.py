@@ -21,18 +21,18 @@ from memory_agent.memory.updater import MemoryUpdater
 class Settings:
     # ── 检索参数 ──
     """answer 阶段检索多少条相关记忆用于生成答案"""
-    retrieval_top_k: int = 5
+    retrieval_top_k: int = 30
 
     # ── 检索算法参数 ──
     """Recency 指数衰减系数，越大近期记忆权重越高，范围 (0, 1)"""
-    decay_factor: float = 0.995
+    decay_factor: float = 1
 
     # ── 反思触发参数 ──
-    reflection_threshold: int = 150
+    reflection_threshold: int = 250
     """累计新增记忆的 importance_score 超过此值触发一次反思"""
 
     # ── 反思流程参数 ──
-    reflection_memory_limit: int = 100
+    reflection_memory_limit: int = 60
     """反思时取最近多少条记忆作为分析素材"""
 
     reflection_question_count: int = 3
@@ -41,14 +41,14 @@ class Settings:
     reflection_insight_per_q: int = 3
     """每个问题生成几条高层次洞察（3问题 × 3洞察 = 共9条反思记忆）"""
 
-    reflection_retrieval_top_k: int = 20
+    reflection_retrieval_top_k: int = 30
     """反思检索时为每个问题检索多少条相关记忆"""
 
     # ── 反思 LLM 生成参数 ──
-    reflection_max_tokens: int = 256
+    reflection_max_tokens: int = 1024
     """反思时 LLM 单次生成的最大 token 数"""
 
-    reflection_temperature: float = 0.2
+    reflection_temperature: float = 0
     """反思时 LLM 的温度参数，越大输出越随机"""
 
 
