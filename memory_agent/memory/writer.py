@@ -47,11 +47,42 @@ Scoring Guidelines:
 - 4-6: Informative facts, general preferences, or ongoing activities (e.g., hobbies, current job, weekend plans).
 - 7-8: Significant personal traits, deep emotions, strong relationships, or clear future goals (e.g., planning to adopt, deep support from friends).
 - 9-10: Pivotal life events, core identity aspects, or major achievements (e.g., transitioning gender, getting married, college acceptance).
-
+Attention:If the category is Reflection, the importance score should be higher than 7.
 Memory: {memory_text}
-
+Category: {category}
 Return ONLY an integer between 1 and 10. Do not include any other text.
 """
+
+
+# 调用llm总结人物脉络
+Summary_PROMPT = """You are an expert psychological profiler and behavioral analyst. Your task is to analyze a comprehensive list of extracted memory facts from conversations and construct a dense, predictive Persona Profile for each main character.
+
+These profiles will be used by an AI to answer implicit, multi-hop questions (e.g., deducing if someone would like a specific music genre based on their hobbies, or if they would visit a national park based on their outdoor activities).
+
+Please synthesize the facts and extract deep insights covering the following dimensions for each character:
+1. Core Identity & Life Stage (marital/family status, major ongoing life events)
+2. Career & Ambitions (current job, future goals, professional motivations)
+3. Lifestyle & Preferences (abstract specific activities into broader concepts, e.g., playing violin -> affinity for classical music; camping -> loves the outdoors)
+4. Values & Beliefs (religiousness, core motivations, social stances like LGBTQ+ advocacy)
+5. Social Circle & Nicknames (key relationships, explicitly note any aliases or nicknames used)
+
+CRITICAL FORMATTING CONSTRAINTS:
+1. You MUST return the output EXACTLY in the format: `Name: Description`
+2. Each character's profile MUST be on a single continuous line. DO NOT use line breaks (\n) within a character's description.
+3. Separate different characters with a single line break (\n).
+4. Length limit: Keep the description for each character highly dense and concise, strictly under 400 words (approx. 500 tokens) per character.
+5. Output ONLY the requested format. No markdown formatting (like **Name**), no introductory text, and no concluding remarks.
+
+Example Output:
+Caroline: A transgender woman and strong LGBTQ+ advocate who is currently looking to adopt a child as a single parent. She wants to be a counselor to support mental health. She values inclusivity, has a close support network of friends from her home country, and is not deeply religious but driven by empathy.
+Melanie: A married mother of two who has been with her husband for 5 years. She is highly supportive of the LGBTQ+ community despite being in a heterosexual marriage. She loves the outdoors, frequently goes camping and running, and expresses her creativity through painting nature and playing the violin, indicating an affinity for classical music and arts.
+
+================
+Input Memory Facts:
+{all_memory_facts}
+"""
+
+
 
 
 #调用llm对记忆文本进行整理
@@ -81,7 +112,7 @@ class MemoryWriter:
 
         executor_results = [None] * num_sessions
         print_lock = threading.Lock()
-        max_workers = min(num_sessions, 30)
+        max_workers = min(num_sessions, 40)
 
         
         def _process_one(idx: int):
@@ -170,8 +201,8 @@ class MemoryWriter:
 
     # 调用 LLM 对记忆文本进行重要性评分，返回 1-10 的整数
     # 解析失败时默认返回 5 分
-    def score_importance(self, memory_text: str) -> int:
-        prompt = IMPORTANCE_PROMPT.format(memory_text=memory_text)
+    def score_importance(self, memory_text: str, category: str) -> int:
+        prompt = IMPORTANCE_PROMPT.format(memory_text=memory_text, category=category)
         raw = self.agent.invoke(prompt).strip()
         try:
             # 从原始输出中提取整数评分
@@ -182,7 +213,7 @@ class MemoryWriter:
 
     # 并发批量评分，max_workers 控制最大并发数
     # 每条记忆独立调用 LLM 打分，大幅缩短总体耗时
-    def score_importance_batch(self, texts: list[str], max_workers: int = 500) -> list[int]:
+    def score_importance_batch(self, texts: list[str], category: str, max_workers: int = 500) -> list[int]:
         num = len(texts)
         scores = [5] * num
         print_lock = threading.Lock()
@@ -191,7 +222,7 @@ class MemoryWriter:
 
         def _score_one(idx: int):
             try:
-                prompt = IMPORTANCE_PROMPT.format(memory_text=texts[idx])
+                prompt = IMPORTANCE_PROMPT.format(memory_text=texts[idx], category=category)
                 raw = self.agent.invoke(prompt).strip()
                 score = int("".join(c for c in raw if c.isdigit()))
                 scores[idx] = max(1, min(10, score))
@@ -224,4 +255,12 @@ class MemoryWriter:
     # 更新 latest_time
     def update_latest_time(self, timestamp: float):
         self.latest_time = timestamp
+
+    # 基于所有记忆事实，调用高级模型生成两个人物总结
+    # 返回格式如 "Caroline: ...\nMelanie: ..."
+    def summarize_personas(self, all_memory_facts: str) -> str:
+        prompt = Summary_PROMPT.format(all_memory_facts=all_memory_facts)
+        result = self.agent.invoke(prompt).strip()
+        print(f"  人物总结生成完成，长度: {len(result)} 字符")
+        return result
     
