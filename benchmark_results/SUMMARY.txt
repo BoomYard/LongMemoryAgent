@@ -1,0 +1,48 @@
+
+======================================================================
+              全 量 评 测 汇 总
+              完成时间: 2026-06-02 23:09:24
+======================================================================
+
+  [✓ PASS] NoMemory
+    Generation: OK  (重试 1 次)
+    Judge:      OK  (重试 1 次)
+    Score: 0.0031
+    F1:    0.0014
+    EM:    0.0
+
+  [✓ PASS] FullContext
+    Generation: OK  (重试 1 次)
+    Judge:      OK  (重试 1 次)
+    Score: 0.2219
+    F1:    0.0866
+    EM:    0.0
+
+  [✓ PASS] VanillaRAG
+    Generation: OK  (重试 1 次)
+    Judge:      OK  (重试 1 次)
+    Score: 0.1625
+    F1:    0.0842
+    EM:    0.0063
+
+  [✓ PASS] MemoryAgent
+    Generation: OK  (重试 1 次)
+    Judge:      OK  (重试 1 次)
+    Score: 0.2625
+    F1:    0.175
+    EM:    0.0563
+
+----------------------------------------------------------------------
+  Benchmark           Score       F1       EM   Status
+----------------------------------------------------------------------
+  NoMemory           0.0031   0.0014   0.0000       OK
+  FullContext        0.2219   0.0866   0.0000       OK
+  VanillaRAG         0.1625   0.0842   0.0063       OK
+  MemoryAgent        0.2625   0.1750   0.0563       OK
+----------------------------------------------------------------------
+
+  所有输出文件位于: /home/LongMemoryAgent/benchmark_results/
+    predictions_nomem.json  /  results_nomem.json
+    predictions_fullctx.json  /  results_fullctx.json
+    predictions_rag.json  /  results_rag.json
+    predictions_memory.json  /  results_memory.json

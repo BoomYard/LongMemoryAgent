@@ -11,11 +11,11 @@ import string
 from collections import Counter
 
 
-def normalize(s: str) -> str:
+def normalize(s) -> str:
     """SQuAD 风格的文本归一化：小写、去标点、去冠词、压空白。"""
     if s is None:
         return ""
-    s = s.lower()
+    s = str(s).lower()
     s = re.sub(r"\b(a|an|the)\b", " ", s)          # 去冠词
     s = "".join(ch for ch in s if ch not in set(string.punctuation))  # 去标点
     s = re.sub(r"\s+", " ", s).strip()             # 压缩连续空白

@@ -1,0 +1,272 @@
+[
+  {
+    "qa_id": "conv-26_q6",
+    "question": "When is Melanie planning on going camping?",
+    "reference": "June 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Melanie plans to go camping next month.",
+    "error": null,
+    "latency_sec": 0.752
+  },
+  {
+    "qa_id": "conv-26_q15",
+    "question": "What activities does Melanie partake in?",
+    "reference": "pottery, camping, painting, swimming",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Melanie engages in pottery and possibly LGBTQ advocacy activities.",
+    "error": null,
+    "latency_sec": 0.402
+  },
+  {
+    "qa_id": "conv-26_q25",
+    "question": "When did Caroline go to the LGBTQ conference?",
+    "reference": "10 July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.261
+  },
+  {
+    "qa_id": "conv-26_q26",
+    "question": "When did Melanie read the book \"nothing is impossible\"?",
+    "reference": 2022,
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.235
+  },
+  {
+    "qa_id": "conv-26_q29",
+    "question": "When did Melanie go to the pottery workshop?",
+    "reference": "The Friday before 15 July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Last Fri I finally took my kids to a pottery workshop.",
+    "error": null,
+    "latency_sec": 0.425
+  },
+  {
+    "qa_id": "conv-26_q31",
+    "question": "When did Melanie go camping in June?",
+    "reference": "The week before 27 June 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.255
+  },
+  {
+    "qa_id": "conv-26_q42",
+    "question": "Would Melanie be more interested in going to a national park or a theme park?",
+    "reference": "National park; she likes the outdoors",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.267
+  },
+  {
+    "qa_id": "conv-26_q43",
+    "question": "What kind of art does Caroline make?",
+    "reference": "abstract art",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Caroline makes art that helps her explore her transition and changing body.",
+    "error": null,
+    "latency_sec": 0.492
+  },
+  {
+    "qa_id": "conv-26_q45",
+    "question": "When did Caroline attend a pride parade in August?",
+    "reference": "The Friday before 14 August 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Last weekend our city held a pride parade!",
+    "error": null,
+    "latency_sec": 0.416
+  },
+  {
+    "qa_id": "conv-26_q59",
+    "question": "Would Caroline be considered religious?",
+    "reference": "Somewhat, but not extremely religious",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.266
+  },
+  {
+    "qa_id": "conv-26_q61",
+    "question": "What musical artists/bands has Melanie seen?",
+    "reference": "Summer Sounds, Matt Patterson",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.295
+  },
+  {
+    "qa_id": "conv-26_q64",
+    "question": "Would Melanie likely enjoy the song \"The Four Seasons\" by Vivaldi?",
+    "reference": "Yes; it's classical music",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.318
+  },
+  {
+    "qa_id": "conv-26_q69",
+    "question": "What personality traits might Melanie say Caroline has?",
+    "reference": "Thoughtful, authentic, driven",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Patience, dedication, and growth.",
+    "error": null,
+    "latency_sec": 0.414
+  },
+  {
+    "qa_id": "conv-26_q71",
+    "question": "What book did Melanie read from Caroline's suggestion?",
+    "reference": "\"Becoming Nicole\"",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Melanie read a book Caroline recommended.",
+    "error": null,
+    "latency_sec": 0.382
+  },
+  {
+    "qa_id": "conv-26_q81",
+    "question": "Would Caroline want to move back to her home country soon?",
+    "reference": "No; she's in the process of adopting children.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.298
+  },
+  {
+    "qa_id": "conv-26_q82",
+    "question": "What did the charity race raise awareness for?",
+    "reference": "mental health",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The charity race raised awareness for mental health.",
+    "error": null,
+    "latency_sec": 0.437
+  },
+  {
+    "qa_id": "conv-26_q85",
+    "question": "What are Caroline's plans for the summer?",
+    "reference": "researching adoption agencies",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Caroline is thinking about going camping next month with her kids.",
+    "error": null,
+    "latency_sec": 0.459
+  },
+  {
+    "qa_id": "conv-26_q101",
+    "question": "Did Melanie make the black and white bowl in the photo?",
+    "reference": "Yes",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.303
+  },
+  {
+    "qa_id": "conv-26_q141",
+    "question": "What does Caroline's drawing symbolize for her?",
+    "reference": "Freedom and being true to herself.",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.289
+  },
+  {
+    "qa_id": "conv-30_q3",
+    "question": "What do Jon and Gina both have in common?",
+    "reference": "They lost their jobs and decided to start their own businesses.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Both Jon and Gina express enthusiasm and commitment to working together and achieving something significant.",
+    "error": null,
+    "latency_sec": 0.514
+  },
+  {
+    "qa_id": "conv-30_q5",
+    "question": "What Jon thinks the ideal dance studio should look like?",
+    "reference": "By the water, with natural light and Marley flooring",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "It sounds great! Could it spark any ideas for your dance studio?",
+    "error": null,
+    "latency_sec": 0.47
+  },
+  {
+    "qa_id": "conv-30_q12",
+    "question": "When did Jon start to go to the gym?",
+    "reference": "March, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.318
+  },
+  {
+    "qa_id": "conv-30_q15",
+    "question": "When did Jon host a dance competition?",
+    "reference": "May, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.29
+  },
+  {
+    "qa_id": "conv-30_q19",
+    "question": "When did Gina interview for a design internship?",
+    "reference": "10 May, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Gina interviewed for a design internship on a day that is not specified in the snippets.",
+    "error": null,
+    "latency_sec": 0.581
+  },
+  {
+    "qa_id": "conv-30_q22",
+    "question": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+    "reference": "June, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.262
+  },
+  {
+    "qa_id": "conv-30_q33",
+    "question": "When did Jon visit networking events for his store?",
+    "reference": "20 June, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 0.255
+  },
+  {
+    "qa_id": "conv-30_q75",
+    "question": "What does Gina say to Jon about the grand opening?",
+    "reference": "Let's live it up and make some great memories",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Can't wait for tomorrow's grand opening!",
+    "error": null,
+    "latency_sec": 0.417
+  }
+]

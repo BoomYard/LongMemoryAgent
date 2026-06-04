@@ -11,7 +11,20 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "eval_kit
 
 from llm_client import LLMClient
 from memory_agent.memory.store import MemoryStore
+from langchain_openai import ChatOpenAI
+from langchain_core.output_parsers import StrOutputParser
 
+
+# 基础大语言模型配置
+llm = ChatOpenAI(
+    api_key=os.getenv("AGENT_API_KEY"),
+    base_url=os.getenv("AGENT_URL"),
+    model=os.getenv("AGENT_MODEL"),
+    temperature=0
+)
+
+parser = StrOutputParser()
+chain = llm | parser
 
 # 将最近记忆喂给 LLM，生成高层次问题
 REFLECT_PROMPT = """You are given the following recent memories:
@@ -64,7 +77,7 @@ class MemoryUpdater:
         self.reflection_retrieval_top_k = reflection_retrieval_top_k
         self.reflection_max_tokens = reflection_max_tokens
         self.reflection_temperature = reflection_temperature
-
+        self.chain = chain
     # 当 sum_score >= 150 时触发
     def check_and_reflect(self) -> bool:
         if self._accumulated_importance < self.reflection_threshold:
@@ -83,9 +96,8 @@ class MemoryUpdater:
         )
 
         # reflect_agent 输出3 个高层次问题
-        questions_raw = self.llm.generate(
-            REFLECT_PROMPT.format(memory_list=memory_list, reflection_question_count=self.reflection_question_count),
-            max_tokens=self.reflection_max_tokens, temperature=self.reflection_temperature,
+        questions_raw = chain.invoke(
+            REFLECT_PROMPT.format(memory_list=memory_list, reflection_question_count=self.reflection_question_count)
         )
         questions = [q.strip() for q in questions_raw.strip().split("\n") if q.strip()][:self.reflection_question_count]
 
@@ -99,9 +111,8 @@ class MemoryUpdater:
             
             # 基于检索结果总结高层次洞察
             # 格式如："Klaus Mueller 致力于他关于绅士化的研究（因为 1,2,8,15）"
-            insights_raw = self.llm.generate(
-                REFLECT_INSIGHT_PROMPT.format(retrieved_info=retrieved_info, reflection_insight_per_q=self.reflection_insight_per_q),
-                max_tokens=self.reflection_max_tokens, temperature=self.reflection_temperature,
+            insights_raw = chain.invoke(
+                REFLECT_INSIGHT_PROMPT.format(retrieved_info=retrieved_info, reflection_insight_per_q=self.reflection_insight_per_q)
             )
             insight_lines = [l.strip() for l in insights_raw.strip().split("\n") if l.strip()][:self.reflection_insight_per_q]
             all_insights.extend(insight_lines)
@@ -109,7 +120,7 @@ class MemoryUpdater:
         # 将反思记忆写入数据库
         # 存入时 type 标记为 "reflection"
         for insight_text in all_insights:
-            importance = self.writer.score_importance(insight_text)
+            importance = self.writer.score_importance(insight_text, category="reflection")
             embedding = self.writer.embed_text(insight_text)
             self.store.add(
                 text=insight_text,
