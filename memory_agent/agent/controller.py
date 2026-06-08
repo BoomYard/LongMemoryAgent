@@ -21,7 +21,7 @@ from memory_agent.memory.updater import MemoryUpdater
 class Settings:
     # ── 检索参数 ──
     """answer 阶段检索多少条相关记忆用于生成答案"""
-    retrieval_top_k: int = 70
+    retrieval_top_k: int = 30
 
     # ── 反思触发参数 ──
     #修改为450
@@ -61,17 +61,44 @@ ANSWER_PROMPT = """You are an expert psychological detective answering questions
 Question: {question}
 
 CRITICAL INSTRUCTIONS:
+
 1. NEVER SAY UNKNOWN: You are strictly forbidden from answering "unknown", "I don't know", or "not mentioned". You MUST make an educated guess based on the context.
-2. DEDUCE PREFERENCES, BUT DO NOT INVENT FACTS: You should deduce implicit preferences (e.g., if they play violin, deduce they like classical music). HOWEVER, DO NOT hallucinate specific names, bands, brands, or exact dates that do not exist in the memories. 
+
+2. DEDUCE PREFERENCES, BUT DO NOT INVENT FACTS: You should deduce implicit preferences (e.g., if they play violin, deduce they like classical music). HOWEVER, DO NOT hallucinate specific names, bands, brands, or exact dates that do not exist in the memories.
+
 3. PARTIAL INFO IS BETTER THAN GUESSING BLINDLY: If you know the month but not the exact day, just state the month. If you know the category but not the specific item, state the category.
-4. DO NOT LIST ALL MEMORIES: In your reasoning, focus only on the 1 or 2 most relevant clues.
+
+4. DO NOT LIST ALL MEMORIES: In your reasoning, focus only on the most relevant clues. However, if the question asks for a list (e.g., activities, artists), you MUST include ALL items supported by the memories.
+
+5. TEMPORAL REASONING (CRITICAL):
+- Each memory ends with a recording date, e.g., "[Recorded on: August 14th, 2023]". This is ONLY the day they talked about it.
+- If the memory contains a specific event date (e.g., "on 11 August 2023"), THAT is the answer. NEVER use the "Recorded on" date if an event date exists.
+- If an event is discussed in the past tense, it happened BEFORE the "Recorded on" date. (e.g., If they talk about a camping trip on June 27th, the trip happened "before June 27th").
+
+6. OCCAM'S RAZOR (DIRECT FACTS FIRST): If you find a memory that directly matches the entities in the question (e.g., a specific item, a specific event), USE IT IMMEDIATELY. Do not overcomplicate or let other similar memories confuse you. Only use deduction if direct evidence is completely missing.
+
+7. EVIDENCE HIERARCHY (NEW - OVERRIDES ALL OTHER RULES):
+Memories are tagged by their reliability:
+- [direct evidence]: Highly relevant and reliable. This is the strongest evidence.
+- [related memories]: Somewhat relevant. Use with caution.
+- [background]: Background context. Use only if no stronger evidence exists.
+STRICT RULE: If any memory tagged as [direct evidence] directly answers the question, YOU MUST base your answer primarily on that memory. Other memories can only be used to supplement, never to contradict or override a [direct evidence].
+
+8. MANDATORY OPPOSING-EVIDENCE CHECK (NEW):
+Before finalizing your answer, you MUST actively search for any memory that suggests the OPPOSITE conclusion. If your initial reasoning points in one direction, force yourself to find at least one clue that might point the other way. This prevents confirmation bias. You will document this in the "opposing_clues" field of your output.
 
 OUTPUT FORMAT:
 You MUST output ONLY a valid JSON object. Do not include any other text, markdown formatting, or tags outside the JSON.
-{{
-  "thinking": "Your logical reasoning process. Explain what clues you found and how you deduced the answer.",
-  "answer": "A concise, complete sentence that directly answers the question AND briefly includes the core reason or context. (e.g., 'Yes, she would likely enjoy it because she is a fan of classical music.' or 'She attended Summer Sounds, but other specific artists are not mentioned.')"
-}}"""
+
+{
+  "thinking": {
+    "supporting_clues": "List the strongest evidence that supports your final answer, with brief reasoning.",
+    "opposing_clues": "List any evidence that could point to a different answer, and explain why you ultimately did not choose it. If none exists, state 'No opposing evidence found in the provided memories.'",
+    "final_reasoning": "Explain how you weighed the supporting and opposing clues to reach your final conclusion. If dates are involved, explicitly state which date you used and why."
+  },
+  "answer": "A concise, complete sentence that directly answers the question AND briefly includes the core reason or context. (e.g., 'Yes, she would likely enjoy it because she enjoys classical music like Bach and Mozart.' or 'She attended the conference on 10 July 2023.')"
+}"""
+
 
 
 class MemoryAgent:

@@ -1,8 +1,8 @@
 """
 本文件实现了基于三因子打分的记忆检索
-- 维度 A：BM25（关键词匹配）—— 权重 20%
-- 维度 B：Importance（重要性）—— LLM 打分，权重 10%
-- 维度 C：Relevance（语义相关性）—— 余弦相似度，权重 70%
+- 维度 A：BM25（关键词匹配）—— 权重 15%
+- 维度 B：Importance（重要性）—— LLM 打分，权重 5%
+- 维度 C：Relevance（语义相关性）—— 余弦相似度，权重 80%
 - Min-Max 归一化后加权求和，排序取 top_k
 """
 
@@ -68,12 +68,12 @@ class MemoryRetriever:
         norm_importance = self._min_max_normalize(importance_raw)
         norm_relevance = self._min_max_normalize(relevance_raw)
 
-        # 加权求和：BM25 20% + Importance 10% + Relevance 70%
+        # 加权求和：BM25 15% + Importance 5% + Relevance 80%
         final_scores = []
         for i, mem in enumerate(memories):
-            score = (0.2 * norm_bm25[i] +
-                     0.1 * norm_importance[i] +
-                     0.7 * norm_relevance[i])
+            score = (0.15 * norm_bm25[i] +
+                     0.05 * norm_importance[i] +
+                     0.80 * norm_relevance[i])
             final_scores.append((mem, score))
 
         final_scores.sort(key=lambda x: x[1], reverse=True)
