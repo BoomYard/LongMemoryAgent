@@ -1,0 +1,1602 @@
+[
+  {
+    "qa_id": "conv-26_q6",
+    "question": "When is Melanie planning on going camping?",
+    "reference": "June 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "June 2023",
+    "error": null,
+    "latency_sec": 4.664
+  },
+  {
+    "qa_id": "conv-26_q15",
+    "question": "What activities does Melanie partake in?",
+    "reference": "pottery, camping, painting, swimming",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "clarinet, pottery",
+    "error": null,
+    "latency_sec": 6.33
+  },
+  {
+    "qa_id": "conv-26_q25",
+    "question": "When did Caroline go to the LGBTQ conference?",
+    "reference": "10 July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "July 18, 2023",
+    "error": null,
+    "latency_sec": 5.109
+  },
+  {
+    "qa_id": "conv-26_q26",
+    "question": "When did Melanie read the book \"nothing is impossible\"?",
+    "reference": 2022,
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "2022",
+    "error": null,
+    "latency_sec": 5.141
+  },
+  {
+    "qa_id": "conv-26_q29",
+    "question": "When did Melanie go to the pottery workshop?",
+    "reference": "The Friday before 15 July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "July 14, 2023",
+    "error": null,
+    "latency_sec": 6.225
+  },
+  {
+    "qa_id": "conv-26_q31",
+    "question": "When did Melanie go camping in June?",
+    "reference": "The week before 27 June 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "June 2023",
+    "error": null,
+    "latency_sec": 7.744
+  },
+  {
+    "qa_id": "conv-26_q42",
+    "question": "Would Melanie be more interested in going to a national park or a theme park?",
+    "reference": "National park; she likes the outdoors",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "The national park on June 2023",
+    "error": null,
+    "latency_sec": 7.378
+  },
+  {
+    "qa_id": "conv-26_q43",
+    "question": "What kind of art does Caroline make?",
+    "reference": "abstract art",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "abstract art",
+    "error": null,
+    "latency_sec": 5.082
+  },
+  {
+    "qa_id": "conv-26_q45",
+    "question": "When did Caroline attend a pride parade in August?",
+    "reference": "The Friday before 14 August 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "11 August 2023",
+    "error": null,
+    "latency_sec": 6.459
+  },
+  {
+    "qa_id": "conv-26_q59",
+    "question": "Would Caroline be considered religious?",
+    "reference": "Somewhat, but not extremely religious",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "unknown",
+    "error": null,
+    "latency_sec": 3.921
+  },
+  {
+    "qa_id": "conv-26_q61",
+    "question": "What musical artists/bands has Melanie seen?",
+    "reference": "Summer Sounds, Matt Patterson",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The band 'Summer Sounds'",
+    "error": null,
+    "latency_sec": 2.787
+  },
+  {
+    "qa_id": "conv-26_q64",
+    "question": "Would Melanie likely enjoy the song \"The Four Seasons\" by Vivaldi?",
+    "reference": "Yes; it's classical music",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "The Four Seasons by Vivaldi",
+    "error": null,
+    "latency_sec": 5.207
+  },
+  {
+    "qa_id": "conv-26_q69",
+    "question": "What personality traits might Melanie say Caroline has?",
+    "reference": "Thoughtful, authentic, driven",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Active LGBTQ+ advocate and committed mental health counselor",
+    "error": null,
+    "latency_sec": 10.825
+  },
+  {
+    "qa_id": "conv-26_q71",
+    "question": "What book did Melanie read from Caroline's suggestion?",
+    "reference": "\"Becoming Nicole\"",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The book was recommended by Caroline",
+    "error": null,
+    "latency_sec": 3.573
+  },
+  {
+    "qa_id": "conv-26_q81",
+    "question": "Would Caroline want to move back to her home country soon?",
+    "reference": "No; she's in the process of adopting children.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Sweden, 2019",
+    "error": null,
+    "latency_sec": 8.908
+  },
+  {
+    "qa_id": "conv-26_q82",
+    "question": "What did the charity race raise awareness for?",
+    "reference": "mental health",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "mental health on 20 May 2023",
+    "error": null,
+    "latency_sec": 3.677
+  },
+  {
+    "qa_id": "conv-26_q85",
+    "question": "What are Caroline's plans for the summer?",
+    "reference": "researching adoption agencies",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "2023-07-01: Special outing with Melanie",
+    "error": null,
+    "latency_sec": 4.912
+  },
+  {
+    "qa_id": "conv-26_q101",
+    "question": "Did Melanie make the black and white bowl in the photo?",
+    "reference": "Yes",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The black and white bowl in Melanie's pottery class",
+    "error": null,
+    "latency_sec": 3.489
+  },
+  {
+    "qa_id": "conv-26_q141",
+    "question": "What does Caroline's drawing symbolize for her?",
+    "reference": "Freedom and being true to herself.",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "freedom and embracing her womanhood",
+    "error": null,
+    "latency_sec": 3.936
+  },
+  {
+    "qa_id": "conv-30_q3",
+    "question": "What do Jon and Gina both have in common?",
+    "reference": "They lost their jobs and decided to start their own businesses.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "dance passion",
+    "error": null,
+    "latency_sec": 11.294
+  },
+  {
+    "qa_id": "conv-30_q5",
+    "question": "What Jon thinks the ideal dance studio should look like?",
+    "reference": "By the water, with natural light and Marley flooring",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "by the water",
+    "error": null,
+    "latency_sec": 4.591
+  },
+  {
+    "qa_id": "conv-30_q12",
+    "question": "When did Jon start to go to the gym?",
+    "reference": "March, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "March 2023",
+    "error": null,
+    "latency_sec": 5.169
+  },
+  {
+    "qa_id": "conv-30_q15",
+    "question": "When did Jon host a dance competition?",
+    "reference": "May, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "May 2023",
+    "error": null,
+    "latency_sec": 3.46
+  },
+  {
+    "qa_id": "conv-30_q19",
+    "question": "When did Gina interview for a design internship?",
+    "reference": "10 May, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "10 May 2023",
+    "error": null,
+    "latency_sec": 4.341
+  },
+  {
+    "qa_id": "conv-30_q22",
+    "question": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+    "reference": "June, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "30",
+    "error": null,
+    "latency_sec": 4.178
+  },
+  {
+    "qa_id": "conv-30_q33",
+    "question": "When did Jon visit networking events for his store?",
+    "reference": "20 June, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "20 June 2023",
+    "error": null,
+    "latency_sec": 4.215
+  },
+  {
+    "qa_id": "conv-30_q75",
+    "question": "What does Gina say to Jon about the grand opening?",
+    "reference": "Let's live it up and make some great memories",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Gina says Jon did a great job preparing for the grand opening of the dance studio.",
+    "error": null,
+    "latency_sec": 4.74
+  },
+  {
+    "qa_id": "conv-41_q7",
+    "question": "What items des John mention having as a child?",
+    "reference": "A doll, a film camera",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "childhood doll",
+    "error": null,
+    "latency_sec": 5.612
+  },
+  {
+    "qa_id": "conv-41_q14",
+    "question": "Would John be considered a patriotic person?",
+    "reference": "Yes",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "John served in the military in the past",
+    "error": null,
+    "latency_sec": 7.924
+  },
+  {
+    "qa_id": "conv-41_q17",
+    "question": "What might John's degree be in?",
+    "reference": "Political science, Public administration, Public affairs",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Public Administration",
+    "error": null,
+    "latency_sec": 8.587
+  },
+  {
+    "qa_id": "conv-41_q22",
+    "question": "When did John go to a convention with colleagues?",
+    "reference": "March 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "March 2023",
+    "error": null,
+    "latency_sec": 3.647
+  },
+  {
+    "qa_id": "conv-41_q26",
+    "question": "What has Maria done to feel closer to her faith?",
+    "reference": "Join a local church, buy a cross necklace",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Maria bought a cross necklace in 2023 to feel closer to her faith.",
+    "error": null,
+    "latency_sec": 3.985
+  },
+  {
+    "qa_id": "conv-41_q29",
+    "question": "What events is Maria planning for the homeless shelter funraiser?",
+    "reference": "Chili cook-off, ring-toss tournament",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The ring-toss tournament in late May 2023",
+    "error": null,
+    "latency_sec": 3.994
+  },
+  {
+    "qa_id": "conv-41_q41",
+    "question": "Does John live close to a beach or the mountains?",
+    "reference": "beach",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "California beach",
+    "error": null,
+    "latency_sec": 6.381
+  },
+  {
+    "qa_id": "conv-41_q48",
+    "question": "When did John have his first firefighter call-out?",
+    "reference": "The sunday before 3` July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "30 July 2023",
+    "error": null,
+    "latency_sec": 4.524
+  },
+  {
+    "qa_id": "conv-41_q52",
+    "question": "Who have written notes of gratitude to Maria?",
+    "reference": "Cindy, Laura",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Cindy, the homeless shelter resident, wrote a note of gratitude to Maria.",
+    "error": null,
+    "latency_sec": 4.226
+  },
+  {
+    "qa_id": "conv-41_q53",
+    "question": "When did John help renovate his hometown community center?",
+    "reference": "2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "2022-01-01",
+    "error": null,
+    "latency_sec": 5.998
+  },
+  {
+    "qa_id": "conv-41_q57",
+    "question": "What causes has John done events for?",
+    "reference": "Toy drive, Community food drive, veterans, domestic violence",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "{\n  \"thinking\": {\n    \"supporting_clues\": \"John has been organizing a toy drive for kids in need (19). John has organized a family vacation where they watched a sunset, strolled the shore at night, and his kids played in the waves (17). John offered to find volunteers for Maria's fundraiser (18). John started a petition (1). John has been networking with people to get their input for the campaign (14). John has been investigating local politics, talking to community leaders, and learning the needs of his neighborhood (13). John plans to set up similar activities for John's kids (16). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has been looking into opportunities in the tech industry since his job loss (15). John has",
+    "error": null,
+    "latency_sec": 136.047
+  },
+  {
+    "qa_id": "conv-41_q62",
+    "question": "How many dogs has Maria adopted from the dog shelter she volunteers at?",
+    "reference": "two",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Shadow in early August 2023",
+    "error": null,
+    "latency_sec": 4.5
+  },
+  {
+    "qa_id": "conv-41_q64",
+    "question": "What job might Maria pursue in the future?",
+    "reference": "Shelter coordinator, Counselor",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "charity worker or writer/communications specialist",
+    "error": null,
+    "latency_sec": 6.319
+  },
+  {
+    "qa_id": "conv-41_q65",
+    "question": "What is John's main focus in local politics?",
+    "reference": "Improving education and infrastructure",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Improving education and infrastructure in his local community",
+    "error": null,
+    "latency_sec": 9.921
+  },
+  {
+    "qa_id": "conv-41_q108",
+    "question": "What did Maria say it was like being at the waterfall in Oregon?",
+    "reference": "Like being in a fairy tale",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "2023-07-01",
+    "error": null,
+    "latency_sec": 4.858
+  },
+  {
+    "qa_id": "conv-41_q113",
+    "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+    "reference": "self-doubt",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "promotion to assistant manager",
+    "error": null,
+    "latency_sec": 5.1
+  },
+  {
+    "qa_id": "conv-41_q117",
+    "question": "What event did John participate in to show support for veterans' rights?",
+    "reference": "marching event",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "3 July 2023",
+    "error": null,
+    "latency_sec": 3.503
+  },
+  {
+    "qa_id": "conv-41_q134",
+    "question": "How did John describe his kids' reaction at the military memorial?",
+    "reference": "awestruck and humbled",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John's children were awestruck and humbled in July 2023.",
+    "error": null,
+    "latency_sec": 4.308
+  },
+  {
+    "qa_id": "conv-42_q0",
+    "question": "Is it likely that Nate has friends besides Joanna?",
+    "reference": "Yesteammates on hisvideo game team.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Nate has supportive friends",
+    "error": null,
+    "latency_sec": 4.145
+  },
+  {
+    "qa_id": "conv-42_q14",
+    "question": "What nickname does Nate use for Joanna?",
+    "reference": "Jo",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Baking Buddy",
+    "error": null,
+    "latency_sec": 5.768
+  },
+  {
+    "qa_id": "conv-42_q19",
+    "question": "How many times has Joanna found new hiking trails?",
+    "reference": "twice",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "16 April 2022",
+    "error": null,
+    "latency_sec": 3.778
+  },
+  {
+    "qa_id": "conv-42_q20",
+    "question": "When did Nate adopt Max?",
+    "reference": "May 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "late May 2022",
+    "error": null,
+    "latency_sec": 4.097
+  },
+  {
+    "qa_id": "conv-42_q30",
+    "question": "What kind of writings does Joanna do?",
+    "reference": "Screenplays,books, online blog posts, journal",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "early writings in October 2022",
+    "error": null,
+    "latency_sec": 5.588
+  },
+  {
+    "qa_id": "conv-42_q32",
+    "question": "Where did Joanna travel to in July 2022?",
+    "reference": "Woodhaven",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "July 2022",
+    "error": null,
+    "latency_sec": 6.113
+  },
+  {
+    "qa_id": "conv-42_q33",
+    "question": "When did someone write Joanna a touching letter?",
+    "reference": "The week before 14August, 2022.",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "early August 2022",
+    "error": null,
+    "latency_sec": 7.722
+  },
+  {
+    "qa_id": "conv-42_q35",
+    "question": "When did Nate take time off to chill with his pets?",
+    "reference": "The weekend of 22August, 2022.",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "27-28 August 2022",
+    "error": null,
+    "latency_sec": 4.167
+  },
+  {
+    "qa_id": "conv-42_q37",
+    "question": "When did Nate win an international tournament?",
+    "reference": "21 August, 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "21 August 2022",
+    "error": null,
+    "latency_sec": 3.721
+  },
+  {
+    "qa_id": "conv-42_q43",
+    "question": "How long did it take for Joanna to finish writing her book?",
+    "reference": "four months",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "late September 2022",
+    "error": null,
+    "latency_sec": 4.392
+  },
+  {
+    "qa_id": "conv-42_q64",
+    "question": "When did Nate win a big Valorant tourney?",
+    "reference": "The Saturday before 7November, 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "The big video game tournament in late September 2022",
+    "error": null,
+    "latency_sec": 5.881
+  },
+  {
+    "qa_id": "conv-42_q66",
+    "question": "What alternative career might Nate consider after gaming?",
+    "reference": "an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Video game developer",
+    "error": null,
+    "latency_sec": 4.727
+  },
+  {
+    "qa_id": "conv-42_q81",
+    "question": "What recipes has Joanna made?",
+    "reference": "dairy free vanilla cake with strawberry filling and coconut cream frosting, parfait, strawberry chocolate cake, chocolate coconut cupcakes, chocolate raspberry tart, chocolate cake with raspberries, blueberry cheesecake bars",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The old recipe revised on Nov 5, 2022; the new recipe planned to surprise family before 5 June 2022",
+    "error": null,
+    "latency_sec": 5.599
+  },
+  {
+    "qa_id": "conv-42_q84",
+    "question": "Was the first half of September 2022 a good month career-wise for Nate and Joanna? Answer yes or no.",
+    "reference": "No; because both of them faced setbacks in their career",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "The first half of September 2022 was a good month for Joanna's career.",
+    "error": null,
+    "latency_sec": 8.962
+  },
+  {
+    "qa_id": "conv-42_q87",
+    "question": "What state did Nate visit?",
+    "reference": "Florida",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "21 August 2022",
+    "error": null,
+    "latency_sec": 4.581
+  },
+  {
+    "qa_id": "conv-42_q91",
+    "question": "What is Nate's favorite book series about?",
+    "reference": "dragons",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The book series with awesome battles and interesting characters",
+    "error": null,
+    "latency_sec": 4.242
+  },
+  {
+    "qa_id": "conv-42_q133",
+    "question": "How many people attended the gaming party hosted by Nate in June 2022?",
+    "reference": "7",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "7 attendees",
+    "error": null,
+    "latency_sec": 4.625
+  },
+  {
+    "qa_id": "conv-42_q157",
+    "question": "What dessert did Joanna share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
+    "reference": "chocolate raspberry tart",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The chocolate raspberry tart on September 9, 2022.",
+    "error": null,
+    "latency_sec": 4.516
+  },
+  {
+    "qa_id": "conv-42_q161",
+    "question": "What did Joanna make for one of the ladies at her writing club?",
+    "reference": "a bookmark",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The bookmark on 6 October 2022",
+    "error": null,
+    "latency_sec": 4.491
+  },
+  {
+    "qa_id": "conv-42_q188",
+    "question": "What is Nate creating for YouTube on 9 November, 2022?",
+    "reference": "gaming content",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "gaming content on 9 November 2022",
+    "error": null,
+    "latency_sec": 4.088
+  },
+  {
+    "qa_id": "conv-42_q193",
+    "question": "What inspired Joanna to take a picture of the sunset in the field near Fort Wayne?",
+    "reference": "The incredible sunset and surrounding beauty",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "summer 2022, Fort Wayne",
+    "error": null,
+    "latency_sec": 4.825
+  },
+  {
+    "qa_id": "conv-43_q1",
+    "question": "What are John's goals for his career that are not related to his basketball skills?",
+    "reference": "get endorsements, build his brand, do charity work",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "{\n  \"thinking\": {\n    \"supporting_clues\": \"John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's teammates signed a basketball for John as a symbol of friendship and appreciation (because 27). John's basketball journey is marked by significant milestones and sentimental symbols, including his shoes, draft, and team achievements (because 8,9,14,16,22,25,32,41,47,48). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's teammates believe in him and his love for improving his skills keep him motivated (because 6,7,8,11,18,19). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply rooted in family, friendships, and sentimental symbols (because 1,2,3,4,5,12). John's basketball journey is deeply",
+    "error": null,
+    "latency_sec": 132.507
+  },
+  {
+    "qa_id": "conv-43_q8",
+    "question": "Which outdoor gear company likely signed up John for an endorsement deal?",
+    "reference": "Under Armour",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "The answer is unknown",
+    "error": null,
+    "latency_sec": 4.138
+  },
+  {
+    "qa_id": "conv-43_q11",
+    "question": "What sports does John like besides basketball?",
+    "reference": "surfing",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Reading fantasy books",
+    "error": null,
+    "latency_sec": 5.086
+  },
+  {
+    "qa_id": "conv-43_q15",
+    "question": "Who is Anthony?",
+    "reference": "likely John's friend, colleague or family",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Anthony: Harry Potter trivia contest participant",
+    "error": null,
+    "latency_sec": 9.223
+  },
+  {
+    "qa_id": "conv-43_q22",
+    "question": "When did John meet with his teammates after returning from Chicago?",
+    "reference": "August 15, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "August 15, 2023",
+    "error": null,
+    "latency_sec": 5.418
+  },
+  {
+    "qa_id": "conv-43_q27",
+    "question": "Which popular time management technique does Tim use to prepare for exams?",
+    "reference": "Pomodoro technique",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "25 minutes studying followed by 5 minutes break",
+    "error": null,
+    "latency_sec": 3.334
+  },
+  {
+    "qa_id": "conv-43_q30",
+    "question": "Which cities has John been to?",
+    "reference": "Seattle, Chicago, New York, and Paris.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "New York, Los Angeles",
+    "error": null,
+    "latency_sec": 5.772
+  },
+  {
+    "qa_id": "conv-43_q34",
+    "question": "What could John do after his basketball career?",
+    "reference": "become a basketball coach since he likes giving back and leadership",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Continue mentorship role with younger players in the NBA or another professional league",
+    "error": null,
+    "latency_sec": 5.798
+  },
+  {
+    "qa_id": "conv-43_q36",
+    "question": "Who is Tim and John's favorite basketball player?",
+    "reference": "LeBron James",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "LeBron James",
+    "error": null,
+    "latency_sec": 3.834
+  },
+  {
+    "qa_id": "conv-43_q37",
+    "question": "Which week did Tim visit the UK for the Harry Potter Conference?",
+    "reference": "The week before October 13th, 2023.",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "early October 2023",
+    "error": null,
+    "latency_sec": 3.864
+  },
+  {
+    "qa_id": "conv-43_q40",
+    "question": "Has Tim been to North Carolina and/or Tennesee states in the US?",
+    "reference": "Yes",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "North Carolina and Tennessee states",
+    "error": null,
+    "latency_sec": 5.254
+  },
+  {
+    "qa_id": "conv-43_q49",
+    "question": "How many times has John injured his ankle?",
+    "reference": "two times",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "2022-2023 basketball season",
+    "error": null,
+    "latency_sec": 6.129
+  },
+  {
+    "qa_id": "conv-43_q50",
+    "question": "Which book was John reading during his recovery from an ankle injury?",
+    "reference": "The Alchemist",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The Name of the Wind",
+    "error": null,
+    "latency_sec": 5.547
+  },
+  {
+    "qa_id": "conv-43_q57",
+    "question": "What instruments does Tim play?",
+    "reference": "piano, violin",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "violin",
+    "error": null,
+    "latency_sec": 2.743
+  },
+  {
+    "qa_id": "conv-43_q66",
+    "question": "What is a Star Wars book that Tim might enjoy?",
+    "reference": "Star Wars: Jedi Apprentice by Judy Blundell and David Farland. It is a highly rated and immersive series about his favorite movies.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "The Princess and Curiosity: A Star Wars Adventure",
+    "error": null,
+    "latency_sec": 6.011
+  },
+  {
+    "qa_id": "conv-43_q67",
+    "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+    "reference": "Writing a travel blog.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Reading travel stories",
+    "error": null,
+    "latency_sec": 5.552
+  },
+  {
+    "qa_id": "conv-43_q70",
+    "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
+    "reference": "Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, and Brow Head because they are Star Wars filming locations.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Mayan ruins in Ireland",
+    "error": null,
+    "latency_sec": 3.033
+  },
+  {
+    "qa_id": "conv-43_q74",
+    "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+    "reference": "characters, spells, magical creatures",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Characters, spells, and magical creatures",
+    "error": null,
+    "latency_sec": 6.539
+  },
+  {
+    "qa_id": "conv-43_q91",
+    "question": "When did John meet back up with his teammates after his trip in August 2023?",
+    "reference": "Aug 15th",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "August 15, 2023",
+    "error": null,
+    "latency_sec": 4.595
+  },
+  {
+    "qa_id": "conv-43_q108",
+    "question": "What does John want to do after his basketball career?",
+    "reference": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Start a foundation and do charity work",
+    "error": null,
+    "latency_sec": 9.268
+  },
+  {
+    "qa_id": "conv-43_q131",
+    "question": "What does Tim have that serves as a reminder of hard work and is his prized possession?",
+    "reference": "a basketball signed by his favorite player",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The signed basketball, Sep 2023",
+    "error": null,
+    "latency_sec": 4.435
+  },
+  {
+    "qa_id": "conv-43_q142",
+    "question": "How did \"The Alchemist\" impact John's perspective on following dreams?",
+    "reference": "made him think again about following dreams and searching for personal legends",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "2023-09-01",
+    "error": null,
+    "latency_sec": 6.213
+  },
+  {
+    "qa_id": "conv-44_q19",
+    "question": "What is an indoor activity that Andrew would enjoy doing while make his dog happy?",
+    "reference": "cook dog treats",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "dog grooming",
+    "error": null,
+    "latency_sec": 3.325
+  },
+  {
+    "qa_id": "conv-44_q20",
+    "question": "Which meat does Audrey prefer eating more than others?",
+    "reference": "chicken",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Chicken",
+    "error": null,
+    "latency_sec": 3.476
+  },
+  {
+    "qa_id": "conv-44_q33",
+    "question": "What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?",
+    "reference": "Change to a hybrid or remote job so he can move away from the city to the suburbs to have a larger living space and be closer to nature.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "hiking with Toby and Buddy",
+    "error": null,
+    "latency_sec": 5.929
+  },
+  {
+    "qa_id": "conv-44_q38",
+    "question": "When did Andrew and his girlfriend go on a wine tasting trip?",
+    "reference": "the weekend before October 24, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "October 21-22, 2023",
+    "error": null,
+    "latency_sec": 3.984
+  },
+  {
+    "qa_id": "conv-44_q39",
+    "question": "What did Audrey get wtih having so many dogs?",
+    "reference": "Companionship",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Joy and meaning",
+    "error": null,
+    "latency_sec": 4.721
+  },
+  {
+    "qa_id": "conv-44_q46",
+    "question": "How many pets did Andrew have, as of September 2023?",
+    "reference": "one",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "1 pet as of September 2023",
+    "error": null,
+    "latency_sec": 4.088
+  },
+  {
+    "qa_id": "conv-44_q49",
+    "question": "What does Audrey view her pets as?",
+    "reference": "Family",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "companions",
+    "error": null,
+    "latency_sec": 4.878
+  },
+  {
+    "qa_id": "conv-44_q55",
+    "question": "When did Andrew make his dogs a fun indoor area?",
+    "reference": "few days before November 22, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "19 October 2023",
+    "error": null,
+    "latency_sec": 4.844
+  },
+  {
+    "qa_id": "conv-44_q88",
+    "question": "What advice did Audrey give to Andrew regarding grooming Toby?",
+    "reference": "Grooming slowly and gently, paying attention to sensitive areas like ears and paws. And remember to stay patient and positive throughout the grooming process.",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "dog grooming",
+    "error": null,
+    "latency_sec": 2.895
+  },
+  {
+    "qa_id": "conv-44_q107",
+    "question": "How do Audrey's dogs react to snow?",
+    "reference": "Confused",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The dogs were confused when taken to a snowy park in winter 2023.",
+    "error": null,
+    "latency_sec": 5.19
+  },
+  {
+    "qa_id": "conv-47_q11",
+    "question": "How was John feeling on April 10, 2022?",
+    "reference": "seeking solitude",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "The answer is not directly supported by any memory, but based on the closest relevant memory, John was feeling social and active on April 19, 2022.",
+    "error": null,
+    "latency_sec": 5.556
+  },
+  {
+    "qa_id": "conv-47_q17",
+    "question": "What is the board game where you have to find the imposter that John mentions to James?",
+    "reference": "Mafia",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "The Impostors game on 27 April 2022",
+    "error": null,
+    "latency_sec": 4.272
+  },
+  {
+    "qa_id": "conv-47_q19",
+    "question": "Was James feeling lonely before meeting Samantha?",
+    "reference": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "9 August 2022",
+    "error": null,
+    "latency_sec": 5.476
+  },
+  {
+    "qa_id": "conv-47_q36",
+    "question": "Who is Jill?",
+    "reference": "Most likely John's partner.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Jill",
+    "error": null,
+    "latency_sec": 5.098
+  },
+  {
+    "qa_id": "conv-47_q39",
+    "question": "When did John start his job in IT?",
+    "reference": "2019",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "July 2019",
+    "error": null,
+    "latency_sec": 6.302
+  },
+  {
+    "qa_id": "conv-47_q40",
+    "question": "What kind of tricks do James's pets know?",
+    "reference": "swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "sit, stay, paw, rollover",
+    "error": null,
+    "latency_sec": 3.797
+  },
+  {
+    "qa_id": "conv-47_q87",
+    "question": "What type of pizza is John's favorite?",
+    "reference": "Hawaiian",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Hawaiian pizza",
+    "error": null,
+    "latency_sec": 2.598
+  },
+  {
+    "qa_id": "conv-47_q99",
+    "question": "What is the main focus of the organization that James volunteered with?",
+    "reference": "providing necessary items to those who are less fortunate",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The organization providing necessary items to the less fortunate in May 2022.",
+    "error": null,
+    "latency_sec": 4.859
+  },
+  {
+    "qa_id": "conv-47_q106",
+    "question": "What online game did John start playing recently for improving strategy?",
+    "reference": "Chess",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The online game John started playing recently for improving strategy is a strategy game.",
+    "error": null,
+    "latency_sec": 6.412
+  },
+  {
+    "qa_id": "conv-47_q130",
+    "question": "What instrument did James used to play when he was younger?",
+    "reference": "guitar",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "guitar",
+    "error": null,
+    "latency_sec": 4.28
+  },
+  {
+    "qa_id": "conv-47_q139",
+    "question": "What sparked James' passion for gaming when he was a kid?",
+    "reference": "Super Mario and The Legend of Zelda games",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Super Mario and The Legend of Zelda on a Nintendo",
+    "error": null,
+    "latency_sec": 4.647
+  },
+  {
+    "qa_id": "conv-48_q0",
+    "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+    "reference": "electricity engineering project",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "an electrical engineering project in the week before 23 January 2023",
+    "error": null,
+    "latency_sec": 4.811
+  },
+  {
+    "qa_id": "conv-48_q3",
+    "question": "When did Jolene`s mother pass away?",
+    "reference": "in 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "2022",
+    "error": null,
+    "latency_sec": 3.905
+  },
+  {
+    "qa_id": "conv-48_q13",
+    "question": "What places give Deborah peace?",
+    "reference": "sitting in a spot by the window in her Mom's house, sitting by the beach, Bali, forest trail in a nearby park",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The spot by the water near her mother's old house, 5 months ago",
+    "error": null,
+    "latency_sec": 8.153
+  },
+  {
+    "qa_id": "conv-48_q18",
+    "question": "In what country did Jolene buy snake Seraphim?",
+    "reference": "In France",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Paris, 2022",
+    "error": null,
+    "latency_sec": 4.116
+  },
+  {
+    "qa_id": "conv-48_q19",
+    "question": "How many times has Jolene been to France?",
+    "reference": "two times",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Once",
+    "error": null,
+    "latency_sec": 3.812
+  },
+  {
+    "qa_id": "conv-48_q28",
+    "question": "In what country was Jolene during summer 2022?",
+    "reference": "Colombia",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Bogota, summer 2022",
+    "error": null,
+    "latency_sec": 3.287
+  },
+  {
+    "qa_id": "conv-48_q31",
+    "question": "When was the last photo of Deborah and Karlie taken?",
+    "reference": "in summer 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "The photo of Deborah and Karlie taken in summer 2022 during a hike.",
+    "error": null,
+    "latency_sec": 5.6
+  },
+  {
+    "qa_id": "conv-48_q43",
+    "question": "When did Deborah go for a bicycle ride with Anna?",
+    "reference": "first week of April, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "early April 2023",
+    "error": null,
+    "latency_sec": 4.191
+  },
+  {
+    "qa_id": "conv-48_q48",
+    "question": "Which US state did Jolene visit during her internship?",
+    "reference": "Alaska",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Thailand",
+    "error": null,
+    "latency_sec": 6.328
+  },
+  {
+    "qa_id": "conv-48_q73",
+    "question": "Did Jolene teach herself how to play the console?",
+    "reference": "yes",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The absolute shortest possible answer. The video game console was taught to Jolene on 26 January 2023.",
+    "error": null,
+    "latency_sec": 7.068
+  },
+  {
+    "qa_id": "conv-48_q79",
+    "question": "Has Deborah tried surfing?",
+    "reference": "yes",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The spot with soothing vibes and nice views",
+    "error": null,
+    "latency_sec": 6.459
+  },
+  {
+    "qa_id": "conv-48_q80",
+    "question": "Has Jolene tried surfing?",
+    "reference": "no",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "The answer is yes, Jolene has tried surfing.",
+    "error": null,
+    "latency_sec": 3.587
+  },
+  {
+    "qa_id": "conv-48_q123",
+    "question": "What did Jolene and Anna discuss while watching the sunset by the sea?",
+    "reference": "They realized they inspire each other",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "March 2023",
+    "error": null,
+    "latency_sec": 3.176
+  },
+  {
+    "qa_id": "conv-48_q133",
+    "question": "What is Jolene currently doing in June 2023?",
+    "reference": "interning at a well-known engineering firm",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Jolene is interning at an engineering firm in June 2023.",
+    "error": null,
+    "latency_sec": 4.869
+  },
+  {
+    "qa_id": "conv-48_q150",
+    "question": "What game did Jolene suggest as an awesome open-world game for the Nintendo Switch?",
+    "reference": "Zelda BOTW",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "It Takes Two",
+    "error": null,
+    "latency_sec": 6.338
+  },
+  {
+    "qa_id": "conv-48_q164",
+    "question": "How old is Max?",
+    "reference": "8 years old",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Max is 5 years old",
+    "error": null,
+    "latency_sec": 6.457
+  },
+  {
+    "qa_id": "conv-48_q166",
+    "question": "What type of place does Jolene visit to meditate?",
+    "reference": "A tranquil spot by a pond",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Paris, 2010",
+    "error": null,
+    "latency_sec": 4.464
+  },
+  {
+    "qa_id": "conv-49_q3",
+    "question": "How many Prius has Evan owned?",
+    "reference": "two",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Evan's old Prius",
+    "error": null,
+    "latency_sec": 5.382
+  },
+  {
+    "qa_id": "conv-49_q5",
+    "question": "Which country was Evan visiting in May 2023?",
+    "reference": "Canada",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Canada",
+    "error": null,
+    "latency_sec": 5.279
+  },
+  {
+    "qa_id": "conv-49_q8",
+    "question": "What hobby did Evan start practicing a few years ago that he enjoys?",
+    "reference": "Watercolor painting",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "painting",
+    "error": null,
+    "latency_sec": 8.087
+  },
+  {
+    "qa_id": "conv-49_q10",
+    "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+    "reference": "camping trip in the outdoors",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "{\n  \"thinking\": {\n    \"supporting_clues\": \"Evan went on a camping trip in summer 2023 and kayaked while watching a sunset. Evan took a family trip to the Rocky Mountains in his new Prius. Evan took his family on a road trip to Jasper on the weekend of 20-21 May 2023. Evan's favorite spot is a peaceful place close to his home by the beach where he goes to relax. Evan took a road trip to the Rocky Mountains in July 2023. Evan started walking regularly in 2021. Evan took a vacation in Canada in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August 2023. Evan took a vacation in Canada with his new significant other in early August",
+    "error": null,
+    "latency_sec": 102.471
+  },
+  {
+    "qa_id": "conv-49_q12",
+    "question": "When did Sam first go to the doctor and find out he had a weight problem?",
+    "reference": "A few days before May 24, 2023.",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "21-22 May 2023",
+    "error": null,
+    "latency_sec": 4.02
+  },
+  {
+    "qa_id": "conv-49_q20",
+    "question": "In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",
+    "reference": "a cookbook with healthy recipes or a subscription to a healthy meal delivery service.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "A motivational poster with the quote 'Don't fear it, just take the first step' and a personalized health tracking tool",
+    "error": null,
+    "latency_sec": 7.68
+  },
+  {
+    "qa_id": "conv-49_q27",
+    "question": "What electronic device could Evan gift Sam to help him keep up with his fitness goals?",
+    "reference": "fitness tracker",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "A fitness tracking app",
+    "error": null,
+    "latency_sec": 4.807
+  },
+  {
+    "qa_id": "conv-49_q38",
+    "question": "What role does nature and the outdoors play in Evan and Sam's mental well-being?",
+    "reference": "Nature and outdoor activities seem to be significant stress relievers and sources of joy for both Evan and Sam. These activities likely contribute positively to their mental well-being.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "{\n  \"thinking\": {\n    \"supporting_clues\": \"Evan finds relaxation and mental well-being through nature, painting, and outdoor adventures (because 1,7,10,11,36); Evan finds peace and rejuvenation through nature and outdoor adventures (because 12,15,17,22,25,31,44); Evan and Sam share common interests and support each other's health and fitness goals (because 10,14,30,32,42,45); Evan does physical therapy for his knee injury (because 1,5,28,48); Evan recommended Sam find a fitness routine that Sam enjoys (because 12,15,27,37,44); Evan does watercolor painting as a hobby (because 1,7,10,11,36); Evan finds road trips and nature relaxing (because 12,15,17,22,25,31,44); Evan has been consistently managing his health through physical activity, diet, mental wellness, and medical care for over two years (because 1,5,28,48); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam plans to spend more time in nature (because 14 October 2023, Sam and his mate decided to go kayaking at Lake Tahoe); Sam is reducing soda and candy intake (because 14 October 2023, Sam and his mate decided to go kayaking at Lake Tahoe); Sam enjoys nature and wants to hike more (because 14 October 2023, Sam and his mate decided to go kayaking at Lake Tahoe); Sam and Evan actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan share common interests and support each other's health and fitness goals (because 10,14,30,32,42,45); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Sam and Evan support each other's health goals by sharing advice,",
+    "error": null,
+    "latency_sec": 99.395
+  },
+  {
+    "qa_id": "conv-49_q42",
+    "question": "How did Evan get into painting?",
+    "reference": "His friend got him into it by gifting him a painting and giving him some advice. The painting inspired Evan.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Evan got into painting through the advice and introduction from his friend.",
+    "error": null,
+    "latency_sec": 4.693
+  },
+  {
+    "qa_id": "conv-49_q54",
+    "question": "What personal health incidents does Evan face in 2023?",
+    "reference": "heart palpitations, twisted ankle, twisted ankle",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "21 November 2023",
+    "error": null,
+    "latency_sec": 3.309
+  },
+  {
+    "qa_id": "conv-49_q57",
+    "question": "Which US state was Sam travelling in during October 2023?",
+    "reference": "California",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Canada, 2 October 2023",
+    "error": null,
+    "latency_sec": 6.423
+  },
+  {
+    "qa_id": "conv-49_q65",
+    "question": "Does Evan live close to a beach or mountains?",
+    "reference": "beach",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "close to Evan's home by the beach",
+    "error": null,
+    "latency_sec": 4.363
+  },
+  {
+    "qa_id": "conv-49_q66",
+    "question": "When did Evan lose his job?",
+    "reference": "end of October 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "October 2023",
+    "error": null,
+    "latency_sec": 3.601
+  },
+  {
+    "qa_id": "conv-49_q79",
+    "question": "When will Evan and his partner have their honeymoon in Canada?",
+    "reference": "February 2024",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "February 2024",
+    "error": null,
+    "latency_sec": 3.605
+  },
+  {
+    "qa_id": "conv-49_q138",
+    "question": "What did Sam recently start enjoying to clear his head?",
+    "reference": "running in the mornings",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "20 November 2023, 'feel good' flick",
+    "error": null,
+    "latency_sec": 7.439
+  },
+  {
+    "qa_id": "conv-49_q141",
+    "question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+    "reference": "Keep trying new things",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Kayaking",
+    "error": null,
+    "latency_sec": 3.861
+  },
+  {
+    "qa_id": "conv-50_q5",
+    "question": "What are Dave's dreams?",
+    "reference": "open a car maintenance shop, work on classic cars, build a custom car from scratch",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Dave: Build a custom car from scratch",
+    "error": null,
+    "latency_sec": 7.563
+  },
+  {
+    "qa_id": "conv-50_q7",
+    "question": "Does Dave's shop employ a lot of people?",
+    "reference": "Yes",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "The shop employs 2-3 people.",
+    "error": null,
+    "latency_sec": 6.037
+  },
+  {
+    "qa_id": "conv-50_q15",
+    "question": "Why does Dave regularly visit parks?",
+    "reference": "because it relaxes and calms him",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "March 2023",
+    "error": null,
+    "latency_sec": 6.501
+  },
+  {
+    "qa_id": "conv-50_q21",
+    "question": "Does Calvin wish to become more popular?",
+    "reference": "Yes; he want's to grow his fanbase",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "The desire to become more popular (memory 1)",
+    "error": null,
+    "latency_sec": 6.524
+  },
+  {
+    "qa_id": "conv-50_q23",
+    "question": "What is Dave's main passion?",
+    "reference": "auto engineering",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Automotive engineering and car restoration",
+    "error": null,
+    "latency_sec": 5.877
+  },
+  {
+    "qa_id": "conv-50_q31",
+    "question": "Where was Dave in the last two weeks of August 2023?",
+    "reference": "San Francisco",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "San Francisco, 1 September 2023",
+    "error": null,
+    "latency_sec": 11.232
+  },
+  {
+    "qa_id": "conv-50_q34",
+    "question": "When did Dave return from San Francisco?",
+    "reference": "September 1, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "1 September 2023",
+    "error": null,
+    "latency_sec": 3.595
+  },
+  {
+    "qa_id": "conv-50_q37",
+    "question": "Does Calvin love music tours?",
+    "reference": "yes",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Calvin loves music tours",
+    "error": null,
+    "latency_sec": 5.29
+  },
+  {
+    "qa_id": "conv-50_q46",
+    "question": "What is Dave's favorite activity?",
+    "reference": "Restoring cars",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "restoring and modifying cars",
+    "error": null,
+    "latency_sec": 5.857
+  },
+  {
+    "qa_id": "conv-50_q48",
+    "question": "What was Dave doing in the first weekend of October 2023?",
+    "reference": "attending a car show",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Dave attended a car show on October 6, 2023.",
+    "error": null,
+    "latency_sec": 5.482
+  },
+  {
+    "qa_id": "conv-50_q50",
+    "question": "When did Calvin buy his second Ferrari?",
+    "reference": "first week of October 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "14 October 2023",
+    "error": null,
+    "latency_sec": 4.954
+  },
+  {
+    "qa_id": "conv-50_q54",
+    "question": "What does help Calvin stay connected to the creative process?",
+    "reference": "Calvin stays connected to the creative process by always staying up-to-date on world events and watching documentaries about artists.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "8 June 2023 networking event",
+    "error": null,
+    "latency_sec": 5.137
+  },
+  {
+    "qa_id": "conv-50_q56",
+    "question": "Which cities did Dave travel to in 2023?",
+    "reference": "San Francsico, Detroit",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Boston, 3 May 2023, September 2023",
+    "error": null,
+    "latency_sec": 6.502
+  },
+  {
+    "qa_id": "conv-50_q85",
+    "question": "What is Dave doing to relax on weekends?",
+    "reference": "exploring parks",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Dave enjoys taking walks on weekends.",
+    "error": null,
+    "latency_sec": 4.689
+  },
+  {
+    "qa_id": "conv-50_q97",
+    "question": "What does Dave say is important for making his custom cars unique?",
+    "reference": "attention to small details",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Dave values precision and thoroughness in his custom car creations.",
+    "error": null,
+    "latency_sec": 5.213
+  },
+  {
+    "qa_id": "conv-50_q104",
+    "question": "Why did Calvin get his guitar customized with a shiny finish?",
+    "reference": "unique look",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Calvin got his guitar customized with a shiny purple finish in late October 2023",
+    "error": null,
+    "latency_sec": 4.873
+  },
+  {
+    "qa_id": "conv-50_q114",
+    "question": "Which song from the childhood of Calvin brings back memories of a road trip with his dad?",
+    "reference": "\"California Love\"",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "California Love by Tupac and Dr. Dre",
+    "error": null,
+    "latency_sec": 3.589
+  },
+  {
+    "qa_id": "conv-50_q143",
+    "question": "What did Dave recently start a blog about?",
+    "reference": "Car mods",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The car mods",
+    "error": null,
+    "latency_sec": 3.356
+  }
+]

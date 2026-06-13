@@ -211,7 +211,7 @@ def run_all(concurrency: int):
             # 手动执行 answer 逻辑（与 controller.answer 一致）
             query_embedding = writer.embed_text(qa["question"])
             results = ctx["retriever"].retrieve(
-                qa["question"], query_embedding, top_k=25
+                qa["question"], query_embedding, top_k=40
             )
 
             if not results:

@@ -7,7 +7,6 @@ answer 方法：接收问题 → 检索 → 拼接上下文 → LLM 生成答案
 
 import sys
 import os
-import json
 import re
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "eval_kit", "eval_kit"))
 
@@ -27,7 +26,7 @@ class Settings:
 
     # ── 反思触发参数 ──
     #修改为450
-    reflection_threshold: int = 450
+    reflection_threshold: int = 45000
     """累计新增记忆的 importance_score 超过此值触发一次反思"""
 
     # ── 反思流程参数 ──
@@ -52,8 +51,8 @@ class Settings:
     """反思时 LLM 的温度参数，越大输出越随机"""
 
 
-ANSWER_PROMPT = """You are an expert psychological detective answering questions about a person based on their Persona Profile and Memory Logs.
-
+ANSWER_PROMPT = """
+You are a fact extractor. Your task is to find the exact answer from the Memory Logs.
 [Persona Profiles]
 {persona_context}
 
@@ -62,44 +61,27 @@ ANSWER_PROMPT = """You are an expert psychological detective answering questions
 
 Question: {question}
 
-CRITICAL INSTRUCTIONS:
+RULES:
+1. ONLY use the information directly written in the memories.
+2. If the question asks for a specific fact (e.g., date, name, item), find the sentence that exactly answers it and copy that fact.
+3. Output ONLY the answer, no extra words.
 
-1. NEVER SAY UNKNOWN: You are strictly forbidden from answering "unknown", "I don't know", or "not mentioned". You MUST make an educated guess based on the context.
+Answer:"""
 
-2. DEDUCE PREFERENCES, BUT DO NOT INVENT FACTS: You should deduce implicit preferences (e.g., if they play violin, deduce they like classical music). HOWEVER, DO NOT hallucinate specific names, bands, brands, or exact dates that do not exist in the memories.
 
-3. PARTIAL INFO IS BETTER THAN GUESSING BLINDLY: If you know the month but not the exact day, just state the month. If you know the category but not the specific item, state the category.
+FILTER_PROMPT = """
+Your task is to keep only the memories that help answer the question. Delete all others.
 
-4. DO NOT LIST ALL MEMORIES: In your reasoning, focus only on the most relevant clues. However, if the question asks for a list (e.g., activities, artists), you MUST include ALL items supported by the memories.
+Memories:
+{memory_context}
 
-5. TEMPORAL REASONING (CRITICAL):
-- Each memory ends with a recording date, e.g., "[Recorded on: August 14th, 2023]". This is ONLY the day they talked about it.
-- If the memory contains a specific event date (e.g., "on 11 August 2023"), THAT is the answer. NEVER use the "Recorded on" date if an event date exists.
-- If an event is discussed in the past tense, it happened BEFORE the "Recorded on" date. (e.g., If they talk about a camping trip on June 27th, the trip happened "before June 27th").
+Question: {question}
 
-6. OCCAM'S RAZOR (DIRECT FACTS FIRST): If you find a memory that directly matches the entities in the question (e.g., a specific item, a specific event), USE IT IMMEDIATELY. Do not overcomplicate or let other similar memories confuse you. Only use deduction if direct evidence is completely missing.
-
-7. EVIDENCE HIERARCHY (NEW - OVERRIDES ALL OTHER RULES):
-Memories are tagged by their reliability:
-- [direct evidence]: Highly relevant and reliable. This is the strongest evidence.
-- [related memories]: Somewhat relevant. Use with caution.
-- [background]: Background context. Use only if no stronger evidence exists.
-STRICT RULE: If any memory tagged as [direct evidence] directly answers the question, YOU MUST base your answer primarily on that memory. Other memories can only be used to supplement, never to contradict or override a [direct evidence].
-
-8. MANDATORY OPPOSING-EVIDENCE CHECK (NEW):
-Before finalizing your answer, you MUST actively search for any memory that suggests the OPPOSITE conclusion. If your initial reasoning points in one direction, force yourself to find at least one clue that might point the other way. This prevents confirmation bias. You will document this in the "opposing_clues" field of your output.
-
-OUTPUT FORMAT:
-You MUST output ONLY a valid JSON object. Do not include any other text, markdown formatting, or tags outside the JSON.
-
-{{
-  "thinking": {{
-    "supporting_clues": "List the strongest evidence that supports your final answer, with brief reasoning.",
-    "opposing_clues": "List any evidence that could point to a different answer, and explain why you ultimately did not choose it. If none exists, state 'No opposing evidence found in the provided memories.'",
-    "final_reasoning": "Explain how you weighed the supporting and opposing clues to reach your final conclusion. If dates are involved, explicitly state which date you used and why."
-  }},
-  "answer": "A concise, complete sentence that directly answers the question AND briefly includes the core reason or context. (e.g., 'Yes, she would likely enjoy it because she enjoys classical music like Bach and Mozart.' or 'She attended the conference on 10 July 2023.')"
-}}"""
+Rules:
+- If a memory contains information directly related to the question, keep it.
+- If it does not, delete it.
+- Output only the kept memories, exactly as they appear. Do not add anything. Do not explain.
+"""
 
 
 
@@ -174,42 +156,25 @@ class MemoryAgent:
         if not results:
             return "unknown"
 
-        # ── 格式化记忆单元：打标签 + 移动日期 ──
-        formatted_memories = []
-        for rank, (mem, score) in enumerate(results, start=1):
-            # 确定标签
-            if rank <= 5:
-                tag = "[direct evidence]"
-            elif rank <= 15:
-                tag = "[related memories]"
-            else:
-                tag = "[background]"
-
-            # 提取内容和日期：格式为 "[Conversation Date: May 25th, 2023]内容"
+        # ── 格式化：仅去掉开头的 [Conversation Date: xxx] ──
+        context_lines = []
+        for mem, _ in results:
             text = mem.text_description
-            # 正则匹配开头的日期 "[Conversation Date: ...]"
-            date_match = re.match(r'\[Conversation Date: ([^\]]+)\]', text)
-            if date_match:
-                date_str = date_match.group(1)
-                content = text[date_match.end():].strip()
-                formatted = f"{tag} {content} [Recorded on: {date_str}]"
-            else:
-                # 没有日期的情况，直接加标签
-                formatted = f"{tag} {text}"
+            cleaned = re.sub(r'^\[Conversation Date: [^\]]+\]\s*', '', text)
+            context_lines.append(f"- {cleaned}")
+        context = "\n".join(context_lines)
 
-            formatted_memories.append(formatted)
+        # ── 第一阶段：精简记忆单元 ──
+        filter_prompt = FILTER_PROMPT.format(
+            memory_context=context,
+            question=question,
+        )
+        filtered_context = self.llm.generate(filter_prompt, max_tokens=512).strip()
 
-        context = "\n".join(f"- {m}" for m in formatted_memories)
-        prompt = ANSWER_PROMPT.format(memory_context=context, question=question, persona_context=self.persona_summaries)
-
-        # 喂给 LLM 生成答案，解析 JSON 提取 answer 字段
-        raw = self.llm.generate(prompt, max_tokens=4096).strip()
-        try:
-            data = json.loads(raw)
-            return data.get("answer", raw)
-        except (json.JSONDecodeError, TypeError):
-            # JSON 被截断时，正则兜底提取 "answer" 字段的值
-            m = re.search(r'"answer"\s*:\s*"((?:[^"\\]|\\.)*)"', raw)
-            if m:
-                return m.group(1)
-            return raw
+        # ── 第二阶段：用精简后的记忆回答问题 ──
+        prompt = ANSWER_PROMPT.format(
+            memory_context=filtered_context,
+            question=question,
+            persona_context=self.persona_summaries,
+        )
+        return self.llm.generate(prompt, max_tokens=64).strip()

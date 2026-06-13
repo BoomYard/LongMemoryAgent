@@ -12,3 +12,4 @@ memory_agent/test/persona_summaries.json
 memory_agent/test/predictions.json
 memory_agent/test/results.md
 
+memory_agent/test/saved_chroma_db_有反思/

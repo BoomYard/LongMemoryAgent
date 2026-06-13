@@ -1,0 +1,1602 @@
+[
+  {
+    "qa_id": "conv-26_q6",
+    "question": "When is Melanie planning on going camping?",
+    "reference": "June 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Melanie is planning to go camping with her family in June 2023.",
+    "error": null,
+    "latency_sec": 8.569
+  },
+  {
+    "qa_id": "conv-26_q15",
+    "question": "What activities does Melanie partake in?",
+    "reference": "pottery, camping, painting, swimming",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Melanie partakes in pottery, painting, clarinet, and running.",
+    "error": null,
+    "latency_sec": 6.863
+  },
+  {
+    "qa_id": "conv-26_q25",
+    "question": "When did Caroline go to the LGBTQ conference?",
+    "reference": "10 July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Yes, she attended the conference on July 10, 2023, where she connected with people who shared similar journeys and felt accepted.",
+    "error": null,
+    "latency_sec": 5.677
+  },
+  {
+    "qa_id": "conv-26_q26",
+    "question": "When did Melanie read the book \"nothing is impossible\"?",
+    "reference": 2022,
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "She would likely enjoy reading 'nothing is impossible' because she has a deep connection to art and creative expression, which resonates with the themes of hope and resilience.",
+    "error": null,
+    "latency_sec": 8.104
+  },
+  {
+    "qa_id": "conv-26_q29",
+    "question": "When did Melanie go to the pottery workshop?",
+    "reference": "The Friday before 15 July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Melanie went to the pottery workshop on July 14, 2023, because this is the only memory that directly mentions a pottery workshop and a specific date.",
+    "error": null,
+    "latency_sec": 6.285
+  },
+  {
+    "qa_id": "conv-26_q31",
+    "question": "When did Melanie go camping in June?",
+    "reference": "The week before 27 June 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "She went camping with her family in late June 2023.",
+    "error": null,
+    "latency_sec": 5.073
+  },
+  {
+    "qa_id": "conv-26_q42",
+    "question": "Would Melanie be more interested in going to a national park or a theme park?",
+    "reference": "National park; she likes the outdoors",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, she would likely enjoy it because she has a strong history of camping with her family and enjoys nature and bonding experiences.",
+    "error": null,
+    "latency_sec": 6.897
+  },
+  {
+    "qa_id": "conv-26_q43",
+    "question": "What kind of art does Caroline make?",
+    "reference": "abstract art",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Caroline makes abstract art, as she has been creating art since she was approximately 17 years old and has been trying abstract art as of October 2023, and she drew an art piece that represents freedom and embracing her womanhood.",
+    "error": null,
+    "latency_sec": 7.773
+  },
+  {
+    "qa_id": "conv-26_q45",
+    "question": "When did Caroline attend a pride parade in August?",
+    "reference": "The Friday before 14 August 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Caroline attended a pride parade in August 2023.",
+    "error": null,
+    "latency_sec": 5.827
+  },
+  {
+    "qa_id": "conv-26_q59",
+    "question": "Would Caroline be considered religious?",
+    "reference": "Somewhat, but not extremely religious",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "No, Caroline would not be considered religious based on the available information. Her work and advocacy for the LGBTQ+ community suggest a more open-minded stance on religion, but there is no direct evidence of her religious preferences.",
+    "error": null,
+    "latency_sec": 7.641
+  },
+  {
+    "qa_id": "conv-26_q61",
+    "question": "What musical artists/bands has Melanie seen?",
+    "reference": "Summer Sounds, Matt Patterson",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "She attended a concert by the band 'Summer Sounds', which suggests she enjoys modern pop music.",
+    "error": null,
+    "latency_sec": 3.269
+  },
+  {
+    "qa_id": "conv-26_q64",
+    "question": "Would Melanie likely enjoy the song \"The Four Seasons\" by Vivaldi?",
+    "reference": "Yes; it's classical music",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, she would likely enjoy it because she enjoys classical music like Bach and Mozart.",
+    "error": null,
+    "latency_sec": 3.403
+  },
+  {
+    "qa_id": "conv-26_q69",
+    "question": "What personality traits might Melanie say Caroline has?",
+    "reference": "Thoughtful, authentic, driven",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Melanie would likely say that Caroline is an active LGBTQ+ advocate and an artist exploring her identity, as these traits are directly mentioned in the memories and align with Melanie's understanding of Caroline's personality.",
+    "error": null,
+    "latency_sec": 6.3
+  },
+  {
+    "qa_id": "conv-26_q71",
+    "question": "What book did Melanie read from Caroline's suggestion?",
+    "reference": "\"Becoming Nicole\"",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "She read 'Becoming Nicole' by Amy Ellis Nutt, a true story about a trans girl and her family, which emphasizes hope, love, and family themes.",
+    "error": null,
+    "latency_sec": 6.583
+  },
+  {
+    "qa_id": "conv-26_q81",
+    "question": "Would Caroline want to move back to her home country soon?",
+    "reference": "No; she's in the process of adopting children.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, she would likely want to move back soon because her support system and motivation to help others suggest a strong connection to her home country.",
+    "error": null,
+    "latency_sec": 7.753
+  },
+  {
+    "qa_id": "conv-26_q82",
+    "question": "What did the charity race raise awareness for?",
+    "reference": "mental health",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The charity race raised awareness for mental health, as Melanie found emotional expression and joy through creative activities like pottery and painting.",
+    "error": null,
+    "latency_sec": 7.097
+  },
+  {
+    "qa_id": "conv-26_q85",
+    "question": "What are Caroline's plans for the summer?",
+    "reference": "researching adoption agencies",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "She plans to explore nature with Melanie during their summer outing in 2023.",
+    "error": null,
+    "latency_sec": 3.415
+  },
+  {
+    "qa_id": "conv-26_q101",
+    "question": "Did Melanie make the black and white bowl in the photo?",
+    "reference": "Yes",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, she would likely enjoy it because she enjoys classical music like Bach and Mozart.",
+    "error": null,
+    "latency_sec": 6.219
+  },
+  {
+    "qa_id": "conv-26_q141",
+    "question": "What does Caroline's drawing symbolize for her?",
+    "reference": "Freedom and being true to herself.",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Her drawing symbolizes freedom and embracing her womanhood, reflecting her personal journey and her advocacy for the LGBTQ+ community.",
+    "error": null,
+    "latency_sec": 5.312
+  },
+  {
+    "qa_id": "conv-30_q3",
+    "question": "What do Jon and Gina both have in common?",
+    "reference": "They lost their jobs and decided to start their own businesses.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Both Jon and Gina have a passion for dance, which they both find joyful and fulfilling.",
+    "error": null,
+    "latency_sec": 5.107
+  },
+  {
+    "qa_id": "conv-30_q5",
+    "question": "What Jon thinks the ideal dance studio should look like?",
+    "reference": "By the water, with natural light and Marley flooring",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Jon thinks the ideal dance studio should be located by the water, likely because it aligns with his passion for dance and provides a welcoming environment for his students.",
+    "error": null,
+    "latency_sec": 5.969
+  },
+  {
+    "qa_id": "conv-30_q12",
+    "question": "When did Jon start to go to the gym?",
+    "reference": "March, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Jon started going to the gym in March 2023, just before he lost his job in April 2023.",
+    "error": null,
+    "latency_sec": 5.27
+  },
+  {
+    "qa_id": "conv-30_q15",
+    "question": "When did Jon host a dance competition?",
+    "reference": "May, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Jon hosted a dance competition in May 2023 to showcase local talent and bring attention to his dance studio.",
+    "error": null,
+    "latency_sec": 4.184
+  },
+  {
+    "qa_id": "conv-30_q19",
+    "question": "When did Gina interview for a design internship?",
+    "reference": "10 May, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Gina had an interview for a design internship on 10 May 2023.",
+    "error": null,
+    "latency_sec": 4.94
+  },
+  {
+    "qa_id": "conv-30_q22",
+    "question": "When did Gina develop a video presentation to teach how to style her fashion pieces? ",
+    "reference": "June, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Gina developed a video presentation to teach how to style her fashion pieces in 2023, as this is the only memory that directly mentions the development of such a presentation.",
+    "error": null,
+    "latency_sec": 5.268
+  },
+  {
+    "qa_id": "conv-30_q33",
+    "question": "When did Jon visit networking events for his store?",
+    "reference": "20 June, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Jon attended networking events for his store on 20 June 2023.",
+    "error": null,
+    "latency_sec": 5.275
+  },
+  {
+    "qa_id": "conv-30_q75",
+    "question": "What does Gina say to Jon about the grand opening?",
+    "reference": "Let's live it up and make some great memories",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "She will attend the grand opening of Jon's dance studio on 20 June 2023 because she will support Jon's endeavor.",
+    "error": null,
+    "latency_sec": 5.176
+  },
+  {
+    "qa_id": "conv-41_q7",
+    "question": "What items des John mention having as a child?",
+    "reference": "A doll, a film camera",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "John had a film camera as a child and took beach pictures, suggesting he enjoyed outdoor activities and photography.",
+    "error": null,
+    "latency_sec": 4.712
+  },
+  {
+    "qa_id": "conv-41_q14",
+    "question": "Would John be considered a patriotic person?",
+    "reference": "Yes",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, John would likely be considered a patriotic person due to his history of military service and his expressed values of community service and resilience.",
+    "error": null,
+    "latency_sec": 8.094
+  },
+  {
+    "qa_id": "conv-41_q17",
+    "question": "What might John's degree be in?",
+    "reference": "Political science, Public administration, Public affairs",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "John's degree might be in mechanical engineering or education, given his involvement in local politics and community initiatives.",
+    "error": null,
+    "latency_sec": 9.271
+  },
+  {
+    "qa_id": "conv-41_q22",
+    "question": "When did John go to a convention with colleagues?",
+    "reference": "March 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Yes, John attended the convention with colleagues on 10 March 2023.",
+    "error": null,
+    "latency_sec": 3.6
+  },
+  {
+    "qa_id": "conv-41_q26",
+    "question": "What has Maria done to feel closer to her faith?",
+    "reference": "Join a local church, buy a cross necklace",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Maria bought a cross necklace to feel closer to her faith in 2023 because she enjoys the symbolism and connection it represents to her.",
+    "error": null,
+    "latency_sec": 5.61
+  },
+  {
+    "qa_id": "conv-41_q29",
+    "question": "What events is Maria planning for the homeless shelter funraiser?",
+    "reference": "Chili cook-off, ring-toss tournament",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Maria is planning a ring-toss tournament for the homeless shelter fundraiser in late May 2023.",
+    "error": null,
+    "latency_sec": 3.555
+  },
+  {
+    "qa_id": "conv-41_q41",
+    "question": "Does John live close to a beach or the mountains?",
+    "reference": "beach",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, he likely lives close to a beach because his recent family outings to the park and his memories of the beach vacation strongly indicate a preference for beach settings.",
+    "error": null,
+    "latency_sec": 8.941
+  },
+  {
+    "qa_id": "conv-41_q48",
+    "question": "When did John have his first firefighter call-out?",
+    "reference": "The sunday before 3` July 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "John had his first firefighter call-out on 30 July 2023.",
+    "error": null,
+    "latency_sec": 4.745
+  },
+  {
+    "qa_id": "conv-41_q52",
+    "question": "Who have written notes of gratitude to Maria?",
+    "reference": "Cindy, Laura",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Cindy, a resident at the homeless shelter, wrote a note of gratitude to Maria.",
+    "error": null,
+    "latency_sec": 6.282
+  },
+  {
+    "qa_id": "conv-41_q53",
+    "question": "When did John help renovate his hometown community center?",
+    "reference": "2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "John helped renovate a rundown community center in his hometown in 2022.",
+    "error": null,
+    "latency_sec": 4.483
+  },
+  {
+    "qa_id": "conv-41_q57",
+    "question": "What causes has John done events for?",
+    "reference": "Toy drive, Community food drive, veterans, domestic violence",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "John has done events for the community and its needs, as he has been networking, investigating local politics, setting up activities for his children, offering to find volunteers, and starting a petition.",
+    "error": null,
+    "latency_sec": 6.596
+  },
+  {
+    "qa_id": "conv-41_q62",
+    "question": "How many dogs has Maria adopted from the dog shelter she volunteers at?",
+    "reference": "two",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Yes, she has adopted one dog from the shelter named Shadow in early August 2023.",
+    "error": null,
+    "latency_sec": 5.374
+  },
+  {
+    "qa_id": "conv-41_q64",
+    "question": "What job might Maria pursue in the future?",
+    "reference": "Shelter coordinator, Counselor",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Maria might pursue a career as a charity worker or a writer focused on community issues, given her background and interests.",
+    "error": null,
+    "latency_sec": 6.367
+  },
+  {
+    "qa_id": "conv-41_q65",
+    "question": "What is John's main focus in local politics?",
+    "reference": "Improving education and infrastructure",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "{\n  \"thinking\": {\n    \"supporting_clues\": \"John's passion for education and infrastructure reform comes from his childhood observations, and he is moving into local politics to make a difference (because 1,3,6,7,35); John's drive to improve his community through political action and volunteer initiatives is rooted in his personal experiences and family motivation (because 1,7,11,15,19,22,32,45,50); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoyed (because 34); John's promotion was a long time coming and he feels overjoy",
+    "error": null,
+    "latency_sec": 136.373
+  },
+  {
+    "qa_id": "conv-41_q108",
+    "question": "What did Maria say it was like being at the waterfall in Oregon?",
+    "reference": "Like being in a fairy tale",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, she would likely enjoy it because she enjoys classical music like Bach and Mozart, which aligns with her preference for creative arts and her aunt's influence on her.",
+    "error": null,
+    "latency_sec": 7.476
+  },
+  {
+    "qa_id": "conv-41_q113",
+    "question": "What was one of the biggest challenges John faced in his journey to becoming assistant manager?",
+    "reference": "self-doubt",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John faced challenges getting sponsors for the 5K run, but successfully secured sponsors, which likely contributed to his promotion to assistant manager.",
+    "error": null,
+    "latency_sec": 5.074
+  },
+  {
+    "qa_id": "conv-41_q117",
+    "question": "What event did John participate in to show support for veterans' rights?",
+    "reference": "marching event",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John participated in a marching event for veterans’ rights shortly before 3 July 2023 to show support for veterans' rights.",
+    "error": null,
+    "latency_sec": 5.954
+  },
+  {
+    "qa_id": "conv-41_q134",
+    "question": "How did John describe his kids' reaction at the military memorial?",
+    "reference": "awestruck and humbled",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John's children were awestruck and humbled by the military memorial visit in late July 2023.",
+    "error": null,
+    "latency_sec": 4.393
+  },
+  {
+    "qa_id": "conv-42_q0",
+    "question": "Is it likely that Nate has friends besides Joanna?",
+    "reference": "Yesteammates on hisvideo game team.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, it is likely that Nate has friends besides Joanna because of the supportive friends who understand and appreciate her work, and the connection through the book series that Nate described.",
+    "error": null,
+    "latency_sec": 6.971
+  },
+  {
+    "qa_id": "conv-42_q14",
+    "question": "What nickname does Nate use for Joanna?",
+    "reference": "Jo",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Nate might use 'Dairy-Free' as a nickname for Joanna based on their shared interest in dairy-free baking.",
+    "error": null,
+    "latency_sec": 6.677
+  },
+  {
+    "qa_id": "conv-42_q19",
+    "question": "How many times has Joanna found new hiking trails?",
+    "reference": "twice",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Yes, she would likely enjoy it because she enjoys hiking and found new trails in her town on 16 April 2022.",
+    "error": null,
+    "latency_sec": 5.253
+  },
+  {
+    "qa_id": "conv-42_q20",
+    "question": "When did Nate adopt Max?",
+    "reference": "May 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Nate adopted Max in the memory provided, which states he adopted a dog named Max.",
+    "error": null,
+    "latency_sec": 3.045
+  },
+  {
+    "qa_id": "conv-42_q30",
+    "question": "What kind of writings does Joanna do?",
+    "reference": "Screenplays,books, online blog posts, journal",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Joanna writes screenplays, which are emotionally-driven scripts based on personal experiences and actively pursues film festival submissions and production opportunities.",
+    "error": null,
+    "latency_sec": 5.956
+  },
+  {
+    "qa_id": "conv-42_q32",
+    "question": "Where did Joanna travel to in July 2022?",
+    "reference": "Woodhaven",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Joanna likely traveled to Woodhaven in July 2022, as her experience there sparked ideas for her next script.",
+    "error": null,
+    "latency_sec": 6.684
+  },
+  {
+    "qa_id": "conv-42_q33",
+    "question": "When did someone write Joanna a touching letter?",
+    "reference": "The week before 14August, 2022.",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "The letter was written in early August 2022, the week before 14 August 2022.",
+    "error": null,
+    "latency_sec": 8.507
+  },
+  {
+    "qa_id": "conv-42_q35",
+    "question": "When did Nate take time off to chill with his pets?",
+    "reference": "The weekend of 22August, 2022.",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Nate took time off to chill with his pets on the weekend of 27-28 August 2022.",
+    "error": null,
+    "latency_sec": 4.294
+  },
+  {
+    "qa_id": "conv-42_q37",
+    "question": "When did Nate win an international tournament?",
+    "reference": "21 August, 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Nate won an international gaming tournament on 21 August 2022.",
+    "error": null,
+    "latency_sec": 3.619
+  },
+  {
+    "qa_id": "conv-42_q43",
+    "question": "How long did it take for Joanna to finish writing her book?",
+    "reference": "four months",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Joanna finished writing her book in late September 2022. The exact day is not mentioned, but the month is specified in the memory log.",
+    "error": null,
+    "latency_sec": 4.555
+  },
+  {
+    "qa_id": "conv-42_q64",
+    "question": "When did Nate win a big Valorant tourney?",
+    "reference": "The Saturday before 7November, 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Yes, Nate won a big Valorant tourney on 5 November 2022.",
+    "error": null,
+    "latency_sec": 5.209
+  },
+  {
+    "qa_id": "conv-42_q66",
+    "question": "What alternative career might Nate consider after gaming?",
+    "reference": "an animalkeeper at a localzoo and workingwith turtles; as heknows a great dealabout turtles andhow to care for them,and he enjoys it.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Nate might consider a career in video game development or content creation, as he has been successful in competitive gaming and enjoys the creative aspect of gaming.",
+    "error": null,
+    "latency_sec": 8.818
+  },
+  {
+    "qa_id": "conv-42_q81",
+    "question": "What recipes has Joanna made?",
+    "reference": "dairy free vanilla cake with strawberry filling and coconut cream frosting, parfait, strawberry chocolate cake, chocolate coconut cupcakes, chocolate raspberry tart, chocolate cake with raspberries, blueberry cheesecake bars",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "She has made a recipe for her family and possibly others, as she revised and perfected a recipe for her family, and plans to surprise her family with a new recipe from Nate.",
+    "error": null,
+    "latency_sec": 5.49
+  },
+  {
+    "qa_id": "conv-42_q84",
+    "question": "Was the first half of September 2022 a good month career-wise for Nate and Joanna? Answer yes or no.",
+    "reference": "No; because both of them faced setbacks in their career",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, the first half of September 2022 was a good month career-wise for Nate and Joanna, as Joanna finished writing her book and Nate made an encouragement gift for her.",
+    "error": null,
+    "latency_sec": 7.101
+  },
+  {
+    "qa_id": "conv-42_q87",
+    "question": "What state did Nate visit?",
+    "reference": "Florida",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Nate visited the state of California on 21 August 2022, where he won an international gaming tournament.",
+    "error": null,
+    "latency_sec": 4.506
+  },
+  {
+    "qa_id": "conv-42_q91",
+    "question": "What is Nate's favorite book series about?",
+    "reference": "dragons",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Nate's favorite book series is fantasy-themed, as Joanna recommended a fantasy book series to him for relaxation.",
+    "error": null,
+    "latency_sec": 5.435
+  },
+  {
+    "qa_id": "conv-42_q133",
+    "question": "How many people attended the gaming party hosted by Nate in June 2022?",
+    "reference": "7",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, Nate hosted a gaming party where 7 attendees wanted to repeat the gaming party next month, directly indicating the number of attendees.",
+    "error": null,
+    "latency_sec": 4.948
+  },
+  {
+    "qa_id": "conv-42_q157",
+    "question": "What dessert did Joanna share a photo of that has an almond flour crust, chocolate ganache, and fresh raspberries?",
+    "reference": "chocolate raspberry tart",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, she would likely enjoy it because her favorite dairy-free treat is a chocolate raspberry tart with almond flour crust, chocolate ganache, and fresh raspberries.",
+    "error": null,
+    "latency_sec": 6.072
+  },
+  {
+    "qa_id": "conv-42_q161",
+    "question": "What did Joanna make for one of the ladies at her writing club?",
+    "reference": "a bookmark",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "She made a bookmark for a lady in her writing club on 6 October 2022.",
+    "error": null,
+    "latency_sec": 6.701
+  },
+  {
+    "qa_id": "conv-42_q188",
+    "question": "What is Nate creating for YouTube on 9 November, 2022?",
+    "reference": "gaming content",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Nate is creating a gaming tutorial or review of 'Cyberpunk 2071' on his YouTube channel.",
+    "error": null,
+    "latency_sec": 5.322
+  },
+  {
+    "qa_id": "conv-42_q193",
+    "question": "What inspired Joanna to take a picture of the sunset in the field near Fort Wayne?",
+    "reference": "The incredible sunset and surrounding beauty",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, she would likely enjoy it because she enjoys classical music like Bach and Mozart, but the direct evidence from the memory is that she was inspired by the natural beauty and sunset during her hike near Fort Wayne.",
+    "error": null,
+    "latency_sec": 6.256
+  },
+  {
+    "qa_id": "conv-43_q1",
+    "question": "What are John's goals for his career that are not related to his basketball skills?",
+    "reference": "get endorsements, build his brand, do charity work",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "John's goals for his career that are not related to his basketball skills include using his platform for community impact and charity, as his basketball journey is deeply rooted in family and sentimental symbols, and his basketball shoes symbolize resilience and love for the game.",
+    "error": null,
+    "latency_sec": 6.987
+  },
+  {
+    "qa_id": "conv-43_q8",
+    "question": "Which outdoor gear company likely signed up John for an endorsement deal?",
+    "reference": "Under Armour",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "John likely signed an endorsement deal with a renowned outdoor gear company, possibly Nike or Under Armour, as he owns a basketball signed by LeBron James and secured a deal in the week before December 19, 2023.",
+    "error": null,
+    "latency_sec": 5.732
+  },
+  {
+    "qa_id": "conv-43_q11",
+    "question": "What sports does John like besides basketball?",
+    "reference": "surfing",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "John might enjoy playing classical music on the piano or violin, as Tim's hobbies include playing piano and violin, and John values mentorship and community impact, which could be inspired by Tim's passion for music.",
+    "error": null,
+    "latency_sec": 5.418
+  },
+  {
+    "qa_id": "conv-43_q15",
+    "question": "Who is Anthony?",
+    "reference": "likely John's friend, colleague or family",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Anthony is likely a fan of Harry Potter and fantasy literature, as he participated in a Harry Potter trivia contest with John and is a fellow fan of fantasy literature.",
+    "error": null,
+    "latency_sec": 7.304
+  },
+  {
+    "qa_id": "conv-43_q22",
+    "question": "When did John meet with his teammates after returning from Chicago?",
+    "reference": "August 15, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "John met with his teammates after returning from Chicago on August 15, 2023.",
+    "error": null,
+    "latency_sec": 5.068
+  },
+  {
+    "qa_id": "conv-43_q27",
+    "question": "Which popular time management technique does Tim use to prepare for exams?",
+    "reference": "Pomodoro technique",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Tim uses a popular time management technique of 25 minutes studying followed by 5 minutes break to prepare for exams.",
+    "error": null,
+    "latency_sec": 4.848
+  },
+  {
+    "qa_id": "conv-43_q30",
+    "question": "Which cities has John been to?",
+    "reference": "Seattle, Chicago, New York, and Paris.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "John has likely visited cities where LeBron James has played, such as New York, Los Angeles, or Miami, based on his exposure to LeBron James' career.",
+    "error": null,
+    "latency_sec": 7.632
+  },
+  {
+    "qa_id": "conv-43_q34",
+    "question": "What could John do after his basketball career?",
+    "reference": "become a basketball coach since he likes giving back and leadership",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "John could potentially coach or mentor young basketball players, or continue to be involved in youth camps and community events, leveraging his experience and mentorship skills.",
+    "error": null,
+    "latency_sec": 9.932
+  },
+  {
+    "qa_id": "conv-43_q36",
+    "question": "Who is Tim and John's favorite basketball player?",
+    "reference": "LeBron James",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Tim and John's favorite basketball player is LeBron James.",
+    "error": null,
+    "latency_sec": 4.622
+  },
+  {
+    "qa_id": "conv-43_q37",
+    "question": "Which week did Tim visit the UK for the Harry Potter Conference?",
+    "reference": "The week before October 13th, 2023.",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Yes, Tim visited the UK for the Harry Potter Conference on 10 October 2023.",
+    "error": null,
+    "latency_sec": 4.531
+  },
+  {
+    "qa_id": "conv-43_q40",
+    "question": "Has Tim been to North Carolina and/or Tennesee states in the US?",
+    "reference": "Yes",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "No, Tim has not been to North Carolina and Tennessee states in the US, as there are no direct memories of such visits and the closest relevant memory is a photo of a family gathering with food and laughter, which does not provide specific information about the states.",
+    "error": null,
+    "latency_sec": 6.841
+  },
+  {
+    "qa_id": "conv-43_q49",
+    "question": "How many times has John injured his ankle?",
+    "reference": "two times",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "John has met LeBron James a few times, which could imply multiple encounters where injuries might have occurred, suggesting John has met LeBron James multiple times, which could include multiple injuries.",
+    "error": null,
+    "latency_sec": 6.765
+  },
+  {
+    "qa_id": "conv-43_q50",
+    "question": "Which book was John reading during his recovery from an ankle injury?",
+    "reference": "The Alchemist",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "John was reading an inspiring book that reminded him to keep dreaming during his recovery from the ankle injury.",
+    "error": null,
+    "latency_sec": 6.566
+  },
+  {
+    "qa_id": "conv-43_q57",
+    "question": "What instruments does Tim play?",
+    "reference": "piano, violin",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Tim plays the violin and is interested in playing classical, jazz, and film score music.",
+    "error": null,
+    "latency_sec": 4.93
+  },
+  {
+    "qa_id": "conv-43_q66",
+    "question": "What is a Star Wars book that Tim might enjoy?",
+    "reference": "Star Wars: Jedi Apprentice by Judy Blundell and David Farland. It is a highly rated and immersive series about his favorite movies.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Tim might enjoy the Star Wars novel 'The Child' by Alan Dean Foster, as he enjoys fantasy literature and movies.",
+    "error": null,
+    "latency_sec": 6.637
+  },
+  {
+    "qa_id": "conv-43_q67",
+    "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+    "reference": "Writing a travel blog.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "A good hobby related to his travel dreams for Tim would be reading fantasy novels, as he enjoys escaping reality through literature and uses travel stories to plan his adventures.",
+    "error": null,
+    "latency_sec": 5.801
+  },
+  {
+    "qa_id": "conv-43_q70",
+    "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
+    "reference": "Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, and Brow Head because they are Star Wars filming locations.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Tim would likely enjoy visiting Star Wars-related locations such as the Star Wars Visitor Center in Anaheim, California, because he actively participates in fan projects and collects Star Wars memorabilia.",
+    "error": null,
+    "latency_sec": 5.375
+  },
+  {
+    "qa_id": "conv-43_q74",
+    "question": "What aspects of the Harry Potter universe will be discussed in John's fan project collaborations?",
+    "reference": "characters, spells, magical creatures",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John's fan project collaborations will likely focus on the film adaptations of Harry Potter, as Tim has seen all the movies and enjoys comparing them to the books, and plans to visit more Harry Potter related places in the future.",
+    "error": null,
+    "latency_sec": 17.052
+  },
+  {
+    "qa_id": "conv-43_q91",
+    "question": "When did John meet back up with his teammates after his trip in August 2023?",
+    "reference": "Aug 15th",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John met back up with his teammates on August 15, 2023, as mentioned in the memory logs.",
+    "error": null,
+    "latency_sec": 4.898
+  },
+  {
+    "qa_id": "conv-43_q108",
+    "question": "What does John want to do after his basketball career?",
+    "reference": "positively influence and inspire others, potentially start a foundation and engage in charity work",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John wants to use his platform to inspire others, start a foundation, and do charity work.",
+    "error": null,
+    "latency_sec": 12.379
+  },
+  {
+    "qa_id": "conv-43_q131",
+    "question": "What does Tim have that serves as a reminder of hard work and is his prized possession?",
+    "reference": "a basketball signed by his favorite player",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Tim considers the signed basketball his prized possession, which serves as a reminder of hard work and his passion for fantasy literature.",
+    "error": null,
+    "latency_sec": 5.126
+  },
+  {
+    "qa_id": "conv-43_q142",
+    "question": "How did \"The Alchemist\" impact John's perspective on following dreams?",
+    "reference": "made him think again about following dreams and searching for personal legends",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, 'The Alchemist' likely impacted John's perspective on following dreams by providing him with a motivational and inspirational message that he could apply to his basketball career and personal life.",
+    "error": null,
+    "latency_sec": 6.512
+  },
+  {
+    "qa_id": "conv-44_q19",
+    "question": "What is an indoor activity that Andrew would enjoy doing while make his dog happy?",
+    "reference": "cook dog treats",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Andrew would likely enjoy an indoor pet-friendly play session or a guided pet walk, as he enjoys hiking with his dog Toby and Toby was happy during a previous hike.",
+    "error": null,
+    "latency_sec": 4.366
+  },
+  {
+    "qa_id": "conv-44_q20",
+    "question": "Which meat does Audrey prefer eating more than others?",
+    "reference": "chicken",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "She likely prefers chicken over other meats due to her fondness for Roasted Chicken, inspired by Mediterranean flavors.",
+    "error": null,
+    "latency_sec": 4.225
+  },
+  {
+    "qa_id": "conv-44_q33",
+    "question": "What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?",
+    "reference": "Change to a hybrid or remote job so he can move away from the city to the suburbs to have a larger living space and be closer to nature.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Andrew can continue to hike with his dogs, which could help him de-stress and accommodate his living situation with his dogs.",
+    "error": null,
+    "latency_sec": 4.684
+  },
+  {
+    "qa_id": "conv-44_q38",
+    "question": "When did Andrew and his girlfriend go on a wine tasting trip?",
+    "reference": "the weekend before October 24, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Yes, she would likely enjoy it because the memory directly states that Andrew attended a wine tasting with his girlfriend on the weekend of October 21-22, 2023.",
+    "error": null,
+    "latency_sec": 4.738
+  },
+  {
+    "qa_id": "conv-44_q39",
+    "question": "What did Audrey get wtih having so many dogs?",
+    "reference": "Companionship",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Audrey likely enjoys having multiple dogs because they bring joy and meaning to her life.",
+    "error": null,
+    "latency_sec": 5.164
+  },
+  {
+    "qa_id": "conv-44_q46",
+    "question": "How many pets did Andrew have, as of September 2023?",
+    "reference": "one",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Andrew had one pet as of September 2023, which was his dog named Toby.",
+    "error": null,
+    "latency_sec": 8.09
+  },
+  {
+    "qa_id": "conv-44_q49",
+    "question": "What does Audrey view her pets as?",
+    "reference": "Family",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Audrey views her pets as companions who bring joy and meaning to her life.",
+    "error": null,
+    "latency_sec": 4.703
+  },
+  {
+    "qa_id": "conv-44_q55",
+    "question": "When did Andrew make his dogs a fun indoor area?",
+    "reference": "few days before November 22, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Yes, Andrew likely made a new indoor area for his dog Buddy shortly before 19 October 2023, as he adopted Buddy shortly before that date.",
+    "error": null,
+    "latency_sec": 5.194
+  },
+  {
+    "qa_id": "conv-44_q88",
+    "question": "What advice did Audrey give to Andrew regarding grooming Toby?",
+    "reference": "Grooming slowly and gently, paying attention to sensitive areas like ears and paws. And remember to stay patient and positive throughout the grooming process.",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Audrey advised Andrew to groom Toby slowly and gently, paying attention to sensitive areas, and staying patient.",
+    "error": null,
+    "latency_sec": 4.516
+  },
+  {
+    "qa_id": "conv-44_q107",
+    "question": "How do Audrey's dogs react to snow?",
+    "reference": "Confused",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "No, they do not like snow, as they were confused and not responding well to the new approach at a snowy park in winter 2023.",
+    "error": null,
+    "latency_sec": 5.307
+  },
+  {
+    "qa_id": "conv-47_q11",
+    "question": "How was John feeling on April 10, 2022?",
+    "reference": "seeking solitude",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "John was likely socializing and forming new connections as he met three new friends in his programming course on April 19, 2022, which suggests he was actively engaging in social activities on April 10, 2022.",
+    "error": null,
+    "latency_sec": 8.839
+  },
+  {
+    "qa_id": "conv-47_q17",
+    "question": "What is the board game where you have to find the imposter that John mentions to James?",
+    "reference": "Mafia",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, John mentioned a board game where players find the imposter during his gaming marathon with his siblings on 27 April 2022.",
+    "error": null,
+    "latency_sec": 5.07
+  },
+  {
+    "qa_id": "conv-47_q19",
+    "question": "Was James feeling lonely before meeting Samantha?",
+    "reference": "Most likely yes, because he mentioned that the only creatures that gave him joy are dogs and he was actively trying to date.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, James might have felt lonely before meeting Samantha due to his appreciation for community engagement and his sister's support, which could have made him feel isolated.",
+    "error": null,
+    "latency_sec": 5.633
+  },
+  {
+    "qa_id": "conv-47_q36",
+    "question": "Who is Jill?",
+    "reference": "Most likely John's partner.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, Jill is one of John's siblings who he teaches.",
+    "error": null,
+    "latency_sec": 4.031
+  },
+  {
+    "qa_id": "conv-47_q39",
+    "question": "When did John start his job in IT?",
+    "reference": "2019",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "John started his IT job in July 2022, shortly after his father wrote his first computer program, which suggests John's father likely started learning coding before July 2022.",
+    "error": null,
+    "latency_sec": 7.408
+  },
+  {
+    "qa_id": "conv-47_q40",
+    "question": "What kind of tricks do James's pets know?",
+    "reference": "swimming, catching frisbees, balancing on a skateboard, sit, stay, paw, and rollover",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "James's pets can perform tricks such as sit, stay, paw, and rollover.",
+    "error": null,
+    "latency_sec": 4.338
+  },
+  {
+    "qa_id": "conv-47_q87",
+    "question": "What type of pizza is John's favorite?",
+    "reference": "Hawaiian",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John's favorite type of pizza is Hawaiian.",
+    "error": null,
+    "latency_sec": 6.069
+  },
+  {
+    "qa_id": "conv-47_q99",
+    "question": "What is the main focus of the organization that James volunteered with?",
+    "reference": "providing necessary items to those who are less fortunate",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The organization that James volunteered with in May 2022 provides necessary items to the less fortunate.",
+    "error": null,
+    "latency_sec": 7.293
+  },
+  {
+    "qa_id": "conv-47_q106",
+    "question": "What online game did John start playing recently for improving strategy?",
+    "reference": "Chess",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "John started playing an online game called 'Impostor' for strategy improvement recently.",
+    "error": null,
+    "latency_sec": 6.79
+  },
+  {
+    "qa_id": "conv-47_q130",
+    "question": "What instrument did James used to play when he was younger?",
+    "reference": "guitar",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "James used to play guitar when he was younger.",
+    "error": null,
+    "latency_sec": 4.364
+  },
+  {
+    "qa_id": "conv-47_q139",
+    "question": "What sparked James' passion for gaming when he was a kid?",
+    "reference": "Super Mario and The Legend of Zelda games",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "James' passion for gaming was sparked when he played Super Mario and The Legend of Zelda on his first gaming system, a Nintendo, which he played for hours as a child.",
+    "error": null,
+    "latency_sec": 6.193
+  },
+  {
+    "qa_id": "conv-48_q0",
+    "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+    "reference": "electricity engineering project",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Jolene was working on an electrical engineering project in the beginning of January 2023.",
+    "error": null,
+    "latency_sec": 5.258
+  },
+  {
+    "qa_id": "conv-48_q3",
+    "question": "When did Jolene`s mother pass away?",
+    "reference": "in 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Jolene's mother passed away in 2022, as stated in the memory logs.",
+    "error": null,
+    "latency_sec": 5.404
+  },
+  {
+    "qa_id": "conv-48_q13",
+    "question": "What places give Deborah peace?",
+    "reference": "sitting in a spot by the window in her Mom's house, sitting by the beach, Bali, forest trail in a nearby park",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "She finds peace in places associated with her mother, such as a hidden coffee shop near her mother's old house and a spot by the water near her mother's old house.",
+    "error": null,
+    "latency_sec": 9.036
+  },
+  {
+    "qa_id": "conv-48_q18",
+    "question": "In what country did Jolene buy snake Seraphim?",
+    "reference": "In France",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Jolene bought snake Seraphim in Paris in 2022.",
+    "error": null,
+    "latency_sec": 3.528
+  },
+  {
+    "qa_id": "conv-48_q19",
+    "question": "How many times has Jolene been to France?",
+    "reference": "two times",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Yes, she would likely enjoy it because her mother gave her a pendant in Paris in 2010, suggesting a fond memory of the city.",
+    "error": null,
+    "latency_sec": 5.266
+  },
+  {
+    "qa_id": "conv-48_q28",
+    "question": "In what country was Jolene during summer 2022?",
+    "reference": "Colombia",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Jolene was in Bogota during summer 2022.",
+    "error": null,
+    "latency_sec": 4.193
+  },
+  {
+    "qa_id": "conv-48_q31",
+    "question": "When was the last photo of Deborah and Karlie taken?",
+    "reference": "in summer 2022",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "The last photo of Deborah and Karlie was taken in summer 2022 during a hike.",
+    "error": null,
+    "latency_sec": 4.754
+  },
+  {
+    "qa_id": "conv-48_q43",
+    "question": "When did Deborah go for a bicycle ride with Anna?",
+    "reference": "first week of April, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Yes, she went for a bicycle ride with Anna in early April 2023.",
+    "error": null,
+    "latency_sec": 4.859
+  },
+  {
+    "qa_id": "conv-48_q48",
+    "question": "Which US state did Jolene visit during her internship?",
+    "reference": "Alaska",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "She likely visited Phuket, Thailand during her internship, as it is a popular tourist destination and the only state in Thailand where she traveled for a retreat.",
+    "error": null,
+    "latency_sec": 6.523
+  },
+  {
+    "qa_id": "conv-48_q73",
+    "question": "Did Jolene teach herself how to play the console?",
+    "reference": "yes",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Yes, she would likely enjoy it because she taught herself to play video games on her own as a child, which indicates she could have learned to play the console independently.",
+    "error": null,
+    "latency_sec": 7.17
+  },
+  {
+    "qa_id": "conv-48_q79",
+    "question": "Has Deborah tried surfing?",
+    "reference": "yes",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "I cannot definitively say yes, but it's reasonable to infer that Deborah might be interested in surfing based on her interest in mindfulness and outdoor activities.",
+    "error": null,
+    "latency_sec": 7.009
+  },
+  {
+    "qa_id": "conv-48_q80",
+    "question": "Has Jolene tried surfing?",
+    "reference": "no",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "No, Jolene has not tried surfing yet. She has gathered information and resources to learn, indicating her interest, but no direct memory confirms she has tried it.",
+    "error": null,
+    "latency_sec": 6.137
+  },
+  {
+    "qa_id": "conv-48_q123",
+    "question": "What did Jolene and Anna discuss while watching the sunset by the sea?",
+    "reference": "They realized they inspire each other",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "They likely discussed their shared love for nature and mindfulness, as they watched sunsets together in March 2023.",
+    "error": null,
+    "latency_sec": 6.386
+  },
+  {
+    "qa_id": "conv-48_q133",
+    "question": "What is Jolene currently doing in June 2023?",
+    "reference": "interning at a well-known engineering firm",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Jolene is currently working on her internship at the engineering firm.",
+    "error": null,
+    "latency_sec": 7.187
+  },
+  {
+    "qa_id": "conv-48_q150",
+    "question": "What game did Jolene suggest as an awesome open-world game for the Nintendo Switch?",
+    "reference": "Zelda BOTW",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, she would likely enjoy it because she recommended Zelda: Breath of the Wild for Nintendo Switch, which is an open-world game.",
+    "error": null,
+    "latency_sec": 4.1
+  },
+  {
+    "qa_id": "conv-48_q164",
+    "question": "How old is Max?",
+    "reference": "8 years old",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "{\n  \"thinking\": {\n    \"supporting_clues\": \"Deborah found an old photo from when Deborah first started yoga. On 23 January 2023, Deborah visited her mother's old house and sat on a bench. On 10 September 2023, Deborah visited her mother's old house. On 25 August 2023, Jolene and Jolene's partner talked about how their loved ones influenced them. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late August 2023. Jolene visited an old temple with stairs in Rio de Janeiro in late",
+    "error": null,
+    "latency_sec": 102.231
+  },
+  {
+    "qa_id": "conv-48_q166",
+    "question": "What type of place does Jolene visit to meditate?",
+    "reference": "A tranquil spot by a pond",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, she would likely visit a park in Paris to meditate, as it is a tranquil spot and holds personal significance from her mother's gift.",
+    "error": null,
+    "latency_sec": 6.152
+  },
+  {
+    "qa_id": "conv-49_q3",
+    "question": "How many Prius has Evan owned?",
+    "reference": "two",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Evan owned one Prius.",
+    "error": null,
+    "latency_sec": 4.094
+  },
+  {
+    "qa_id": "conv-49_q5",
+    "question": "Which country was Evan visiting in May 2023?",
+    "reference": "Canada",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Evan was visiting Canada in May 2023, specifically the Rocky Mountains, as he took a family trip there in his new Prius on the weekend of May 20-21, 2023.",
+    "error": null,
+    "latency_sec": 5.977
+  },
+  {
+    "qa_id": "conv-49_q8",
+    "question": "What hobby did Evan start practicing a few years ago that he enjoys?",
+    "reference": "Watercolor painting",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Evan started practicing watercolor painting as a hobby a few years ago that he enjoys.",
+    "error": null,
+    "latency_sec": 8.731
+  },
+  {
+    "qa_id": "conv-49_q10",
+    "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+    "reference": "camping trip in the outdoors",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Evan would prefer a camping trip in the outdoors with his family over a walking tour in a metropolitan city, as his memories and values strongly lean towards outdoor adventures and nature.",
+    "error": null,
+    "latency_sec": 6.006
+  },
+  {
+    "qa_id": "conv-49_q12",
+    "question": "When did Sam first go to the doctor and find out he had a weight problem?",
+    "reference": "A few days before May 24, 2023.",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Sam first went to the doctor on 21-22 May 2023 to find out he had a weight problem, as this memory directly states the wake-up call and the specific date.",
+    "error": null,
+    "latency_sec": 6.393
+  },
+  {
+    "qa_id": "conv-49_q20",
+    "question": "In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",
+    "reference": "a cookbook with healthy recipes or a subscription to a healthy meal delivery service.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "A personalized health tracking tool for Evan and a motivational poster with the quote 'Don't fear it, just take the first step' for Sam to encourage their healthy lifestyles.",
+    "error": null,
+    "latency_sec": 7.703
+  },
+  {
+    "qa_id": "conv-49_q27",
+    "question": "What electronic device could Evan gift Sam to help him keep up with his fitness goals?",
+    "reference": "fitness tracker",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "A fitness tracking app would be a suitable gift for Sam to help him keep up with his fitness goals.",
+    "error": null,
+    "latency_sec": 5.317
+  },
+  {
+    "qa_id": "conv-49_q38",
+    "question": "What role does nature and the outdoors play in Evan and Sam's mental well-being?",
+    "reference": "Nature and outdoor activities seem to be significant stress relievers and sources of joy for both Evan and Sam. These activities likely contribute positively to their mental well-being.",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "{\n  \"thinking\": {\n    \"supporting_clues\": \"Evan finds relaxation and mental well-being through nature, painting, and outdoor adventures (because 1,7,10,11,36); Evan finds peace and rejuvenation through nature and outdoor adventures (because 12,15,17,22,25,31,44); Evan and Sam share common interests and support each other's goals (because 10,14,30,32,42,45); Sam enjoys nature and wants to hike more; Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan found letting go of unrealistic expectations liberating both physically and mentally; Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam share common interests and support each other's goals (because 10,14,30,32,42,45); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,15,27,37,44); Evan and Sam support each other's health goals by sharing advice, recipes, and encouragement (because 2,4,22,40); Evan and Sam actively support each other in achieving their health and fitness goals (because 12,",
+    "error": null,
+    "latency_sec": 96.445
+  },
+  {
+    "qa_id": "conv-49_q42",
+    "question": "How did Evan get into painting?",
+    "reference": "His friend got him into it by gifting him a painting and giving him some advice. The painting inspired Evan.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Evan got into painting after his friend introduced him to watercolor painting and gave him advice, likely because he received a painting from his friend and was inspired to start painting himself.",
+    "error": null,
+    "latency_sec": 5.008
+  },
+  {
+    "qa_id": "conv-49_q54",
+    "question": "What personal health incidents does Evan face in 2023?",
+    "reference": "heart palpitations, twisted ankle, twisted ankle",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Evan faced a health scare in the week leading up to 21 November 2023.",
+    "error": null,
+    "latency_sec": 4.434
+  },
+  {
+    "qa_id": "conv-49_q57",
+    "question": "Which US state was Sam travelling in during October 2023?",
+    "reference": "California",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Sam was likely traveling in California during October 2023, as he was trying to keep up with a new health routine and California is known for its health-conscious culture and outdoor activities.",
+    "error": null,
+    "latency_sec": 6.112
+  },
+  {
+    "qa_id": "conv-49_q65",
+    "question": "Does Evan live close to a beach or mountains?",
+    "reference": "beach",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, he likely enjoys both beaches and mountains due to his varied experiences and preferences.",
+    "error": null,
+    "latency_sec": 8.366
+  },
+  {
+    "qa_id": "conv-49_q66",
+    "question": "When did Evan lose his job?",
+    "reference": "end of October 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Evan lost his job in October 2023 due to company downsizing.",
+    "error": null,
+    "latency_sec": 3.414
+  },
+  {
+    "qa_id": "conv-49_q79",
+    "question": "When will Evan and his partner have their honeymoon in Canada?",
+    "reference": "February 2024",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Yes, they will have their honeymoon in February 2024, as this is explicitly mentioned in the memories and directly matches the question.",
+    "error": null,
+    "latency_sec": 5.057
+  },
+  {
+    "qa_id": "conv-49_q138",
+    "question": "What did Sam recently start enjoying to clear his head?",
+    "reference": "running in the mornings",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Sam recently started enjoying a 'feel good' movie to clear his head.",
+    "error": null,
+    "latency_sec": 6.272
+  },
+  {
+    "qa_id": "conv-49_q141",
+    "question": "What did Evan suggest Sam should keep doing to find his own version of love?",
+    "reference": "Keep trying new things",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Evan suggested kayaking as a hobby to Sam on 14 October 2023, as a way for Sam to find his own version of love.",
+    "error": null,
+    "latency_sec": 5.889
+  },
+  {
+    "qa_id": "conv-50_q5",
+    "question": "What are Dave's dreams?",
+    "reference": "open a car maintenance shop, work on classic cars, build a custom car from scratch",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Dave's dreams include building a custom car from scratch and restoring and modifying cars, while Calvin's dreams are to tour the world and connect with audiences through music.",
+    "error": null,
+    "latency_sec": 6.699
+  },
+  {
+    "qa_id": "conv-50_q7",
+    "question": "Does Dave's shop employ a lot of people?",
+    "reference": "Yes",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, Dave's shop likely employs a lot of people due to the scope of his work and the influence of his blog inspiring others to start DIY projects.",
+    "error": null,
+    "latency_sec": 6.781
+  },
+  {
+    "qa_id": "conv-50_q15",
+    "question": "Why does Dave regularly visit parks?",
+    "reference": "because it relaxes and calms him",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Dave regularly visits parks because he arranged regular walks with friends at parks and has a history of going for walks in parks on specific dates, suggesting a preference for the recreational and therapeutic benefits of parks.",
+    "error": null,
+    "latency_sec": 7.486
+  },
+  {
+    "qa_id": "conv-50_q21",
+    "question": "Does Calvin wish to become more popular?",
+    "reference": "Yes; he want's to grow his fanbase",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, he would likely enjoy experimenting with new sounds and pushing boundaries in his music, which suggests he wishes to become more popular as he seeks to create special and unique music.",
+    "error": null,
+    "latency_sec": 8.21
+  },
+  {
+    "qa_id": "conv-50_q23",
+    "question": "What is Dave's main passion?",
+    "reference": "auto engineering",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Dave's main passion is restoring and modifying cars.",
+    "error": null,
+    "latency_sec": 5.404
+  },
+  {
+    "qa_id": "conv-50_q31",
+    "question": "Where was Dave in the last two weeks of August 2023?",
+    "reference": "San Francisco",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Dave attended a music festival in September 2023, so he was not in the last two weeks of August 2023.",
+    "error": null,
+    "latency_sec": 6.084
+  },
+  {
+    "qa_id": "conv-50_q34",
+    "question": "When did Dave return from San Francisco?",
+    "reference": "September 1, 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Dave returned from San Francisco on 1 September 2023.",
+    "error": null,
+    "latency_sec": 4.136
+  },
+  {
+    "qa_id": "conv-50_q37",
+    "question": "Does Calvin love music tours?",
+    "reference": "yes",
+    "category": 3,
+    "category_name": "multi_hop",
+    "prediction": "Yes, he would likely enjoy it because he has been touring with major artists and collaborating with others, indicating a strong passion for music tours.",
+    "error": null,
+    "latency_sec": 5.583
+  },
+  {
+    "qa_id": "conv-50_q46",
+    "question": "What is Dave's favorite activity?",
+    "reference": "Restoring cars",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Dave's favorite activity is restoring and modifying classic cars, as it serves as both a form of therapy and a source of personal fulfillment and purpose.",
+    "error": null,
+    "latency_sec": 5.669
+  },
+  {
+    "qa_id": "conv-50_q48",
+    "question": "What was Dave doing in the first weekend of October 2023?",
+    "reference": "attending a car show",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Dave was working on a car restoration project in the first weekend of October 2023.",
+    "error": null,
+    "latency_sec": 4.909
+  },
+  {
+    "qa_id": "conv-50_q50",
+    "question": "When did Calvin buy his second Ferrari?",
+    "reference": "first week of October 2023",
+    "category": 2,
+    "category_name": "temporal",
+    "prediction": "Calvin bought his second Ferrari in the week before 15 October 2023.",
+    "error": null,
+    "latency_sec": 5.042
+  },
+  {
+    "qa_id": "conv-50_q54",
+    "question": "What does help Calvin stay connected to the creative process?",
+    "reference": "Calvin stays connected to the creative process by always staying up-to-date on world events and watching documentaries about artists.",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Yes, he likely stays connected to the creative process through networking events because he values staying connected and up-to-date on world events, and he attended a networking event on 8 June 2023 to meet more artists.",
+    "error": null,
+    "latency_sec": 6.013
+  },
+  {
+    "qa_id": "conv-50_q56",
+    "question": "Which cities did Dave travel to in 2023?",
+    "reference": "San Francsico, Detroit",
+    "category": 1,
+    "category_name": "single_hop",
+    "prediction": "Dave traveled to Boston in 2023.",
+    "error": null,
+    "latency_sec": 4.614
+  },
+  {
+    "qa_id": "conv-50_q85",
+    "question": "What is Dave doing to relax on weekends?",
+    "reference": "exploring parks",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Dave is taking walks on weekends to relax.",
+    "error": null,
+    "latency_sec": 4.528
+  },
+  {
+    "qa_id": "conv-50_q97",
+    "question": "What does Dave say is important for making his custom cars unique?",
+    "reference": "attention to small details",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Dave likely pays attention to unique details when customizing cars, as he finds fixing things therapeutic and values attention to detail.",
+    "error": null,
+    "latency_sec": 5.376
+  },
+  {
+    "qa_id": "conv-50_q104",
+    "question": "Why did Calvin get his guitar customized with a shiny finish?",
+    "reference": "unique look",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "The shiny purple finish of the custom guitar was likely chosen to reflect Calvin's appreciation for Japanese aesthetics and his desire to stand out in the music scene, given his immersion in Japanese culture and his commitment to authenticity and uniqueness in his music.",
+    "error": null,
+    "latency_sec": 5.568
+  },
+  {
+    "qa_id": "conv-50_q114",
+    "question": "Which song from the childhood of Calvin brings back memories of a road trip with his dad?",
+    "reference": "\"California Love\"",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Yes, Calvin would likely enjoy 'California Love' by Tupac and Dr. Dre because it reminds him of a road trip with his dad, which he sang along to during his childhood.",
+    "error": null,
+    "latency_sec": 5.176
+  },
+  {
+    "qa_id": "conv-50_q143",
+    "question": "What did Dave recently start a blog about?",
+    "reference": "Car mods",
+    "category": 4,
+    "category_name": "open_domain",
+    "prediction": "Dave recently started a blog about car mods.",
+    "error": null,
+    "latency_sec": 4.161
+  }
+]
